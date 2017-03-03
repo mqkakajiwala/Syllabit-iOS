@@ -1,0 +1,6 @@
+framework module Pods_Sylabilt {
+  umbrella header "Pods-Sylabilt-umbrella.h"
+
+  export *
+  module * { export * }
+}
