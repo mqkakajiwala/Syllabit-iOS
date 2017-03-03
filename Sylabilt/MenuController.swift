@@ -10,7 +10,7 @@ import UIKit
 
 
 class MenuController: UITableViewController {
-    
+    //Mustafa Commenting
     let labelArray = ["Subscribe","Edit Profile","My Syllabit","ISBN Book Deals","Export Calendar","Share App","Settings","Logout"];
     
     override func viewDidLoad() {
