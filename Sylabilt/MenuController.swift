@@ -9,35 +9,42 @@
 import UIKit
 
 
-class MenuController: UITableViewController {
+class MenuController: UIViewController, UITableViewDelegate,UITableViewDataSource {
     //Mustafa Commenting
-    let labelArray = ["Subscribe","Edit Profile","My Syllabit","ISBN Book Deals","Export Calendar","Share App","Settings","Logout"];
+    var labelArray = ["Subscribe","Edit Profile","My Syllabilt","ISBN Book Deals","Export Calendar","Share App","Settings","Logout"];
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-      
-        func tableView(tableView: UITableView, numberOfRowsInSection: Int) {
-            self.labelArray.count
-        }
         
-        func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-            
-            let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath as IndexPath) as UITableViewCell
-            
-            var cellLabel = cell.contentView.viewWithTag(1) as! UILabel
-            
-            cellLabel.text = self.labelArray[IndexPath.row] as! String
-            
-            
-            
-            return cell
-            
-        }
-        
+    }
     
     
-
-       
-   
+      func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return labelArray.count
+    }
+    
+      func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+        
+        let cellImage = cell.viewWithTag(1) as! UIImageView
+        let cellLabel = cell.viewWithTag(2) as! UILabel
+        
+        cellImage.image = UIImage.init(named: labelArray[indexPath.row])
+        cellLabel.text = labelArray[indexPath.row]
+        
+        return cell
+    }
+        
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 80
+    }
+    
+    
+    
+    
+    
+    
 }

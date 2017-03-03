@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1A4519CB1E633D69004EEF81 /* ExportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4519CA1E633D69004EEF81 /* ExportViewController.swift */; };
-		1A53D6E11E65CBDA0054630E /* steelfish outline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A53D6DE1E65CBDA0054630E /* steelfish outline.ttf */; };
-		1A53D6E21E65CBDA0054630E /* steelfish rg it.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A53D6DF1E65CBDA0054630E /* steelfish rg it.ttf */; };
-		1A53D6E31E65CBDA0054630E /* steelfish rg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A53D6E01E65CBDA0054630E /* steelfish rg.ttf */; };
+		1A53D6E11E65CBDA0054630E /* steelfish_outline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A53D6DE1E65CBDA0054630E /* steelfish_outline.ttf */; };
+		1A53D6E21E65CBDA0054630E /* steelfish_rg_it.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A53D6DF1E65CBDA0054630E /* steelfish_rg_it.ttf */; };
+		1A53D6E31E65CBDA0054630E /* steelfish_rg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A53D6E01E65CBDA0054630E /* steelfish_rg.ttf */; };
 		1A6F11AC1E5DEDFA00277090 /* AgendaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6F11AB1E5DEDFA00277090 /* AgendaViewController.swift */; };
 		1A6F11AE1E5DEE2F00277090 /* SubscriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6F11AD1E5DEE2F00277090 /* SubscriptionViewController.swift */; };
 		1A6F11B01E5DEE7C00277090 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6F11AF1E5DEE7C00277090 /* MenuController.swift */; };
@@ -26,7 +26,6 @@
 		1AC416481E5DB44200884C8D /* SylabiltTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC416471E5DB44200884C8D /* SylabiltTests.swift */; };
 		1AC416531E5DB44200884C8D /* SylabiltUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC416521E5DB44200884C8D /* SylabiltUITests.swift */; };
 		451C34301E688CA000ABDE0C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451C342F1E688CA000ABDE0C /* Constants.swift */; };
-		451C34361E6898CF00ABDE0C /* SideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451C34351E6898CF00ABDE0C /* SideMenuController.swift */; };
 		97050D21651612EB9929699D /* Pods_SylabiltUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D107480C5DAD6E5C06ECE1 /* Pods_SylabiltUITests.framework */; };
 		E40AC38BF09FF5D45F7423B3 /* Pods_SylabiltTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E2702F54B9EE88CFE61A7C /* Pods_SylabiltTests.framework */; };
 		F88DE5432A3483E06F81FF94 /* Pods_Sylabilt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7FA0F45840BC59DCA7A044D /* Pods_Sylabilt.framework */; };
@@ -51,9 +50,9 @@
 
 /* Begin PBXFileReference section */
 		1A4519CA1E633D69004EEF81 /* ExportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExportViewController.swift; sourceTree = "<group>"; };
-		1A53D6DE1E65CBDA0054630E /* steelfish outline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "steelfish outline.ttf"; sourceTree = "<group>"; };
-		1A53D6DF1E65CBDA0054630E /* steelfish rg it.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "steelfish rg it.ttf"; sourceTree = "<group>"; };
-		1A53D6E01E65CBDA0054630E /* steelfish rg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "steelfish rg.ttf"; sourceTree = "<group>"; };
+		1A53D6DE1E65CBDA0054630E /* steelfish_outline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = steelfish_outline.ttf; sourceTree = "<group>"; };
+		1A53D6DF1E65CBDA0054630E /* steelfish_rg_it.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = steelfish_rg_it.ttf; sourceTree = "<group>"; };
+		1A53D6E01E65CBDA0054630E /* steelfish_rg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = steelfish_rg.ttf; sourceTree = "<group>"; };
 		1A6F11AB1E5DEDFA00277090 /* AgendaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgendaViewController.swift; sourceTree = "<group>"; };
 		1A6F11AD1E5DEE2F00277090 /* SubscriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriptionViewController.swift; sourceTree = "<group>"; };
 		1A6F11AF1E5DEE7C00277090 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
@@ -76,7 +75,6 @@
 		1AC416541E5DB44200884C8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3581A510EB5B43D9EAE93B37 /* Pods-SylabiltUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SylabiltUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SylabiltUITests/Pods-SylabiltUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		451C342F1E688CA000ABDE0C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		451C34351E6898CF00ABDE0C /* SideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuController.swift; sourceTree = "<group>"; };
 		527CE14F1D1AC6C2C810AC37 /* Pods-Sylabilt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sylabilt.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sylabilt/Pods-Sylabilt.release.xcconfig"; sourceTree = "<group>"; };
 		5CAF904BAECE0CB8F68EB3A1 /* Pods-SylabiltTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SylabiltTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SylabiltTests/Pods-SylabiltTests.release.xcconfig"; sourceTree = "<group>"; };
 		84E2702F54B9EE88CFE61A7C /* Pods_SylabiltTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SylabiltTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,19 +148,18 @@
 		1AC4162E1E5DB44100884C8D /* Sylabilt */ = {
 			isa = PBXGroup;
 			children = (
-				1A53D6DE1E65CBDA0054630E /* steelfish outline.ttf */,
-				1A53D6DF1E65CBDA0054630E /* steelfish rg it.ttf */,
-				1A53D6E01E65CBDA0054630E /* steelfish rg.ttf */,
+				1A53D6DE1E65CBDA0054630E /* steelfish_outline.ttf */,
+				1A53D6DF1E65CBDA0054630E /* steelfish_rg_it.ttf */,
+				1A53D6E01E65CBDA0054630E /* steelfish_rg.ttf */,
 				1AC4162F1E5DB44100884C8D /* AppDelegate.swift */,
-				451C34351E6898CF00ABDE0C /* SideMenuController.swift */,
-				451C342F1E688CA000ABDE0C /* Constants.swift */,
 				1A6F11AF1E5DEE7C00277090 /* MenuController.swift */,
+				1A6F11AB1E5DEDFA00277090 /* AgendaViewController.swift */,
+				451C342F1E688CA000ABDE0C /* Constants.swift */,
 				1A6F11AD1E5DEE2F00277090 /* SubscriptionViewController.swift */,
 				1ABFA3681E604892006593A2 /* EditProfileViewController.swift */,
 				1ABFA3621E604798006593A2 /* SylabiltViewController.swift */,
 				1ABFA3641E6047C9006593A2 /* AddTaskViewController.swift */,
 				1ABFA3661E604812006593A2 /* AddDetailViewController.swift */,
-				1A6F11AB1E5DEDFA00277090 /* AgendaViewController.swift */,
 				1A4519CA1E633D69004EEF81 /* ExportViewController.swift */,
 				1AC416331E5DB44100884C8D /* Main.storyboard */,
 				1AC416391E5DB44100884C8D /* Assets.xcassets */,
@@ -323,10 +320,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A53D6E11E65CBDA0054630E /* steelfish outline.ttf in Resources */,
+				1A53D6E11E65CBDA0054630E /* steelfish_outline.ttf in Resources */,
 				1AC4163D1E5DB44200884C8D /* LaunchScreen.storyboard in Resources */,
-				1A53D6E31E65CBDA0054630E /* steelfish rg.ttf in Resources */,
-				1A53D6E21E65CBDA0054630E /* steelfish rg it.ttf in Resources */,
+				1A53D6E31E65CBDA0054630E /* steelfish_rg.ttf in Resources */,
+				1A53D6E21E65CBDA0054630E /* steelfish_rg_it.ttf in Resources */,
 				1AC4163A1E5DB44100884C8D /* Assets.xcassets in Resources */,
 				1AC416351E5DB44100884C8D /* Main.storyboard in Resources */,
 			);
@@ -494,7 +491,6 @@
 				1ABFA3691E604892006593A2 /* EditProfileViewController.swift in Sources */,
 				1AC416381E5DB44100884C8D /* Sylabilt.xcdatamodeld in Sources */,
 				1A4519CB1E633D69004EEF81 /* ExportViewController.swift in Sources */,
-				451C34361E6898CF00ABDE0C /* SideMenuController.swift in Sources */,
 				1A6F11B01E5DEE7C00277090 /* MenuController.swift in Sources */,
 				1ABFA3631E604798006593A2 /* SylabiltViewController.swift in Sources */,
 				1AC416301E5DB44100884C8D /* AppDelegate.swift in Sources */,
@@ -658,6 +654,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FE474AE6DAA24AB8260AF91F /* Pods-Sylabilt.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -680,6 +677,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 527CE14F1D1AC6C2C810AC37 /* Pods-Sylabilt.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";

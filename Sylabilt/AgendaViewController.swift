@@ -16,48 +16,37 @@ class AgendaViewController: UIViewController {
     @IBOutlet weak var dateLabel:UILabel!
     @IBOutlet weak var dayLabel:UILabel!
     @IBOutlet var lineViewBottomConstraint: NSLayoutConstraint!
-    
-    
+    @IBOutlet var dayBarButtonOutlet: UIBarButtonItem!
+    @IBOutlet var monthBarButtonOutlet: UIBarButtonItem!
+    @IBOutlet var weekBarButtonOutlet: UIBarButtonItem!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        if self.revealViewController() != nil {
-//            menuButton.target = self.revealViewController()
-//            menuButton.action = "revealToggle:"
-//            self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
-//        }
+        //        if self.revealViewController() != nil {
+        //            menuButton.target = self.revealViewController()
+        //            menuButton.action = "revealToggle:"
+        //            self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+        //        }
         
-//        if DeviceType.IS_IPHONE_6P {
-//            self.lineViewBottomConstraint.constant = 12
-//        }else{
-//            self.lineViewBottomConstraint.constant = 4
-//        }
+        if DeviceType.IS_IPHONE_6P {
+            self.lineViewBottomConstraint.constant = 12
+        }else{
+            self.lineViewBottomConstraint.constant = 4
+        }
         
         
         
-//        self.nextLabel.transform = CGAffineTransform(rotationAngle: CGFloat(-0.25));
-//        self.nextLabel?.font = UIFont.completeItemTextFontWithItalic(size: 24)
-//        self.bioLabel?.font = UIFont.completeItemTextFontWithItalic(size: 24)
-//        self.bioLabel.transform = CGAffineTransform(rotationAngle: CGFloat(-0.25));
-//        self.dateLabel.font = UIFont.completeItemTextFontWithRegular(size: 30)
-//        self.dayLabel.font = UIFont.completeItemTextFontWithRegular(size: 18)
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        self.nextLabel.transform = CGAffineTransform(rotationAngle: CGFloat(-0.25));
+        self.bioLabel.transform = CGAffineTransform(rotationAngle: CGFloat(-0.15));
+        
+//        let customFont = UIFont(name: "steelfish_rg_it.ttf", size: 17.0)  //don't forget to put real font name here - otherwise it won't work or may cause crash (see NOTES) !!!
+//        self.dayBarButtonOutlet.setTitleTextAttributes([NSFontAttributeName: customFont!], for: UIControlState.normal)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+    
+    
+    
+    
+    
+    
 }

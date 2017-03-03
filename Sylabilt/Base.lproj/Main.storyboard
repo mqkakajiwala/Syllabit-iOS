@@ -11,59 +11,59 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="steelfish rg it.ttf">
-            <string>SteelfishRg-Italic</string>
-        </array>
-        <array key="steelfish rg.ttf">
+        <array key="steelfish_rg.ttf">
             <string>SteelfishRg-Regular</string>
+        </array>
+        <array key="steelfish_rg_it.ttf">
+            <string>SteelfishRg-Italic</string>
         </array>
     </customFonts>
     <scenes>
         <!--Menu Controller-->
         <scene sceneID="5Tb-1g-m34">
             <objects>
-                <tableViewController id="l0v-ow-8Yp" customClass="MenuController" customModule="Sylabilt" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="SideMenuVC" id="l0v-ow-8Yp" customClass="MenuController" customModule="Sylabilt" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="22h-z9-8ad">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="fz8-Fb-XrO">
-                            <rect key="frame" x="0.0" y="0.0" width="1024" height="60"/>
+                            <rect key="frame" x="0.0" y="0.0" width="1024" height="80"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="79196B6B-2A1F-4F77-9AFF-3D1F19208E97" translatesAutoresizingMaskIntoConstraints="NO" id="sm1-gA-INt">
-                                    <rect key="frame" x="971" y="12" width="37" height="37"/>
-                                </imageView>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Hello John" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="viY-yz-vzW">
-                                    <rect key="frame" x="8" y="13" width="66" height="33"/>
+                                    <rect key="frame" x="8" y="24" width="66" height="33"/>
                                     <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="27"/>
                                     <color key="textColor" red="0.38823529410000002" green="0.38823529410000002" blue="0.38823529410000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Edit Profile" translatesAutoresizingMaskIntoConstraints="NO" id="sm1-gA-INt">
+                                    <rect key="frame" x="980" y="26" width="28" height="28"/>
+                                </imageView>
                             </subviews>
                             <color key="backgroundColor" red="0.17254901959999999" green="0.73333333329999995" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
                             <constraints>
                                 <constraint firstItem="viY-yz-vzW" firstAttribute="centerY" secondItem="fz8-Fb-XrO" secondAttribute="centerY" id="6Uu-jt-Igi"/>
-                                <constraint firstAttribute="trailing" secondItem="sm1-gA-INt" secondAttribute="trailing" constant="16" id="7Qt-q7-pSU"/>
+                                <constraint firstItem="sm1-gA-INt" firstAttribute="centerY" secondItem="fz8-Fb-XrO" secondAttribute="centerY" id="NtB-pb-NZl"/>
                                 <constraint firstItem="viY-yz-vzW" firstAttribute="leading" secondItem="fz8-Fb-XrO" secondAttribute="leading" constant="8" id="W76-Z3-CZ8"/>
-                                <constraint firstItem="sm1-gA-INt" firstAttribute="centerY" secondItem="fz8-Fb-XrO" secondAttribute="centerY" id="WVD-CE-eEb"/>
+                                <constraint firstAttribute="trailing" secondItem="sm1-gA-INt" secondAttribute="trailing" constant="16" id="s91-Gj-ai7"/>
                             </constraints>
                         </view>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="80" id="QMp-dL-4ML">
-                                <rect key="frame" x="0.0" y="88" width="1024" height="80"/>
+                                <rect key="frame" x="0.0" y="108" width="1024" height="80"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QMp-dL-4ML" id="pBq-Zg-hlv">
                                     <rect key="frame" x="0.0" y="0.0" width="1024" height="80"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Subscribe" translatesAutoresizingMaskIntoConstraints="NO" id="cHg-Nx-we6">
-                                            <rect key="frame" x="30" y="24" width="36" height="32"/>
+                                        <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ISBN Book Deals" translatesAutoresizingMaskIntoConstraints="NO" id="cHg-Nx-we6">
+                                            <rect key="frame" x="30" y="30" width="28" height="21"/>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subscribe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XfS-jd-IiO">
-                                            <rect key="frame" x="96" y="22" width="73" height="36"/>
-                                            <fontDescription key="fontDescription" name="SteelfishRg-Italic" family="Steelfish" pointSize="30"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ISBN Book Deals" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XfS-jd-IiO">
+                                            <rect key="frame" x="88" y="25.5" width="94.5" height="29"/>
+                                            <fontDescription key="fontDescription" name="SteelfishRg-Italic" family="Steelfish" pointSize="24"/>
                                             <color key="textColor" red="0.17254901959999999" green="0.73333333329999995" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -79,8 +79,8 @@
                         </prototypes>
                         <sections/>
                         <connections>
-                            <outlet property="dataSource" destination="l0v-ow-8Yp" id="Xtk-Pe-28K"/>
-                            <outlet property="delegate" destination="l0v-ow-8Yp" id="F1B-mP-J3L"/>
+                            <outlet property="dataSource" destination="l0v-ow-8Yp" id="b5B-8M-Scy"/>
+                            <outlet property="delegate" destination="l0v-ow-8Yp" id="2JY-S7-fXG"/>
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="Nwd-Vk-V9A"/>
@@ -682,7 +682,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XeD-4O-Pzy">
-                                <rect key="frame" x="20" y="475" width="984" height="61.5"/>
+                                <rect key="frame" x="20" y="474.5" width="984" height="62"/>
                                 <string key="text">We apologize!
 This feature is only available for 
 Go 4.0 Subscription</string>
@@ -754,7 +754,7 @@ Go 4.0 Subscription</string>
                                         <rect key="frame" x="343" y="0.0" width="297" height="222"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Biology" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JFG-tD-a4g">
-                                        <rect key="frame" x="471.5" y="40" width="42.5" height="29"/>
+                                        <rect key="frame" x="471" y="40" width="43" height="29"/>
                                         <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="24"/>
                                         <color key="textColor" red="1" green="0.98648891630000002" blue="0.1125982099" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -778,7 +778,7 @@ Go 4.0 Subscription</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOME WORK" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BMh-SG-38B">
-                                        <rect key="frame" x="348" y="196" width="52" height="20"/>
+                                        <rect key="frame" x="348" y="195" width="52" height="21"/>
                                         <fontDescription key="fontDescription" name="SteelfishRg-Italic" family="Steelfish" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -803,7 +803,7 @@ Go 4.0 Subscription</string>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chapter 14.3 review questions on genetics and DNA" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fe6-7P-yrq">
-                                        <rect key="frame" x="406.5" y="112" width="172.5" height="17"/>
+                                        <rect key="frame" x="406" y="112" width="173" height="17"/>
                                         <fontDescription key="fontDescription" name="SteelfishRg-Italic" family="Steelfish" pointSize="14"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -855,7 +855,7 @@ Go 4.0 Subscription</string>
                                 <rect key="frame" x="552" y="30" width="15" height="15"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XZp-MA-Zch">
-                                        <rect key="frame" x="5.5" y="2" width="3.5" height="12"/>
+                                        <rect key="frame" x="5" y="2" width="4" height="12"/>
                                         <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="10"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -907,13 +907,13 @@ Go 4.0 Subscription</string>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </barButtonItem>
                             <barButtonItem title="Day " id="its-44-rHj">
-                                <color key="tintColor" red="0.38823529410000002" green="0.38823529410000002" blue="0.38823529410000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </barButtonItem>
                             <barButtonItem title="Month " id="Ud5-MZ-sY3">
-                                <color key="tintColor" red="0.38823529410000002" green="0.38823529410000002" blue="0.38823529410000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </barButtonItem>
                             <barButtonItem title="Week " id="0Hl-58-KTU">
-                                <color key="tintColor" red="0.38823529410000002" green="0.38823529410000002" blue="0.38823529410000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </barButtonItem>
                         </leftBarButtonItems>
                         <barButtonItem key="rightBarButtonItem" image="Search" id="8aO-RM-HlP">
@@ -923,10 +923,13 @@ Go 4.0 Subscription</string>
                     <connections>
                         <outlet property="bioLabel" destination="JFG-tD-a4g" id="bde-7A-r6o"/>
                         <outlet property="dateLabel" destination="33D-Cr-Iox" id="7Jr-pF-CJN"/>
+                        <outlet property="dayBarButtonOutlet" destination="its-44-rHj" id="Bi5-zi-eEf"/>
                         <outlet property="dayLabel" destination="rDE-zo-ad3" id="uuI-LJ-XEF"/>
                         <outlet property="lineViewBottomConstraint" destination="AhH-S7-tvU" id="Epd-lt-eDs"/>
                         <outlet property="menuButton" destination="qrO-US-cim" id="pKq-Kh-8r2"/>
+                        <outlet property="monthBarButtonOutlet" destination="Ud5-MZ-sY3" id="dih-oo-cch"/>
                         <outlet property="nextLabel" destination="hd3-dT-124" id="EfV-PQ-U4z"/>
+                        <outlet property="weekBarButtonOutlet" destination="0Hl-58-KTU" id="t9p-cf-oiS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c0G-04-goa" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -950,183 +953,24 @@ Go 4.0 Subscription</string>
             </objects>
             <point key="canvasLocation" x="-257.8125" y="-625.0366032210834"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="PCG-ha-gdP">
-            <objects>
-                <navigationController storyboardIdentifier="SideMenuVC" automaticallyAdjustsScrollViewInsets="NO" id="V9U-eL-Bag" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="0mF-MS-ENM">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="l0v-ow-8Yp" kind="relationship" relationship="rootViewController" id="QBG-W2-VuX"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="mJU-eN-QiQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-2330.2734375" y="-106.29575402635432"/>
-        </scene>
     </scenes>
     <resources>
-        <image name="79196B6B-2A1F-4F77-9AFF-3D1F19208E97" width="37" height="37">
-            <mutableData key="keyedArchiveRepresentation">
-YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
-GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
-c1dOU0NvbG9ygAKADRIgwAAAgAOAC1h7MzcsIDM3fdIVChYYWk5TLm9iamVjdHOhF4AEgArSFQoaHaIb
-HIAFgAaACRAA0iAKISJfEBROU1RJRkZSZXByZXNlbnRhdGlvboAHgAhPER4CTU0AKgAAFWwAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEREREzY2NjpnaGdvmpua
-qLm5uci8vLzMra2tu46PjptYWVhgLCwsLwgHCQkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAYGBghCQkJIlJWTn8zNzNrr6+v+9fb1//Hy8f/v8O//7/Dv//Dx8P/x8vH/9fb1/+Xm5PbAw8DRg4OD
-iy4uLjIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAktLS1K4ubjF7/Dv//b49v/y9PL/7u/t/+zu7P/v8O//8PHw
-//Hy8f/x8vH/7/Dv/+zu7P/v8O//9PX0//f59//l5uX0nJycpi8vLzMAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhoaHZ2dnafw8PD+9fb1
-/+7v7f/s7uz/7O7s/+/x7//v8e//3t/d/8rLyv/ExcT/yMnI/9fZ1//s7uz/8PHw/+zu7P/s7uz/7/Dv
-//f59//i4+LydXd1gAcHBwkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAPDo8QM3Nzdn3+ff/7u/t/+zu7P/s7uz/7O7s//Dz8P/R0dH/l5eX/3h5eP9tbW3/aWlp
-/2tra/90dHT/i4uL/8HBwf/s7uz/7/Dv/+zu7P/s7uz/8PHw//b49v+pq6m2GhoaHQAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAR0hHT9/g3+719vX/7O7s/+zu7P/s7uz/7u/t
-/+zu7P+vsK//cXFx/2lpaf9ra2v/bW1t/21tbf9tbW3/bGxs/2ppav9ra2v/mJmX/+Tl5P/v8O//7O7s
-/+zu7P/s7uz/+Pr3/8LCws8gISAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPDw8
-QeDg4O7y9PL/7O7s/+zu7P/s7uz/7O7s/+/w7/+nqKf/ampq/2tra/9tbW3/bW1t/21tbf9tbW3/bW1t
-/21tbf9tbW3/bGxs/2hoaP+MjIz/5ebl/+7v7f/s7uz/7O7s/+zu7P/3+ff/vsG+zhcXFxoAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAHx8fIs/Rzt709fT/7O7s/+zu7P/s7uz/7O7s//Hy8f+9vr3/bGxs
-/2xsbP9tbW3/bW1t/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t/21tbf9tbW3/aGho/52enf/v8O//7O7s
-/+zu7P/s7uz/7O7s//f59/+kpKSxCAgICAAAAAAAAAAAAAAAAAAAAAAAAAAAAwMDBaGjoa73+ff/7O7s
-/+zu7P/s7uz/7O7s/+/w7//h4uH/fHx8/2pqav9tbW3/bW1t/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t
-/21tbf9tbW3/bW1t/2xsbP9tbW3/yMjI//Dx8P/s7uz/7O7s/+zu7P/s7uz/9vj2/2tra3QAAAAAAAAA
-AAAAAAAAAAAAAAAAAFBQUFfw8fD+7u/t/+zu7P/s7uz/7O7s/+zu7P/x8vH/s7Sz/2lpaf9tbW3/bW1t
-/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t/21tbf9tbW3/aWlp/5CQkP/u7+3/7O7s
-/+zu7P/s7uz/7O7s//Hy8f/c3dzrIyQjJwAAAAAAAAAAAAAAAAgICAq9vb3N9fb1/+zu7P/s7uz/7O7s
-/+zu7P/s7uz/6+zr/4iIiP9qamr/bW1t/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t
-/21tbf9tbW3/bW1t/2xsbP90dHT/19nX/+/w7//s7uz/7O7s/+zu7P/s7uz/+fr5/4uLi5cAAAAAAAAA
-AAAAAABNTk1V8vTy/+zu7P/s7uz/7O7s/+zu7P/s7uz/7/Dv/9vc2/91dXX/bGts/21tbf9tbW3/bW1t
-/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t/21tbf9tbW3/ampq/72+vf/x8vH/7O7s
-/+zu7P/s7uz/7O7s//Dx8P/a3NrsHx4fIQAAAAAAAAAApKSksfb49v/s7uz/7O7s/+zu7P/s7uz/7O7s
-//Hy8f/Ozs7/bm5u/2xsbP9tbW3/bW1t/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t
-/21tbf9tbW3/bW1t/2hoaP+tra3/8fLx/+zu7P/s7uz/7O7s/+zu7P/s7uz/9vj2/2NkY2wAAAAAGRkZ
-G9TV1Ofw8fD/7O7s/+zu7P/s7uz/7O7s/+zu7P/u7+3/pKSk/2tra/9tbW3/bW1t/21tbf9tbW3/bW1t
-/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t/21tbf9qamr/lZaV/+3t7f/s7uz/7O7s
-/+zu7P/s7uz/7O7s//X29f+trq27AgICAkZGRk3x8vH/7u/t/+zu7P/s7uz/7O7s/+zu7P/v8O//0dPR
-/3BwcP9sbGz/bW1t/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t
-/21tbf9tbW3/bGxs/3Fxcf/R09H/7/Dv/+zu7P/s7uz/7O7s/+zu7P/x8vH/1dbU5RoaGhyEhoSQ8vTy
-/+zu7P/s7uz/7O7s/+zu7P/s7uz/8PHw/8/Qz/9wcHD/bGxs/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t
-/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t/2xsbP9wcHD/z9DP//Dx8P/s7uz/7O7s
-/+zu7P/s7uz/7u/t/+7v7v02NjY7urq6yfDx8P/s7uz/7O7s/+zu7P/s7uz/7O7s/+7v7f/n6ef/g4OD
-/2pqav9tbW3/bW1t/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t
-/21tbf9qamr/g4SD/+fp5//u7+3/7O7s/+zu7P/s7uz/7O7s/+zu7P/19vX/WlpaYtna2ezu7+3/7O7s
-/+zu7P/s7uz/7O7s/+zu7P/s7uz/8fLx/77Avv9sbGz/bGxs/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t
-/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t/8DBv//w8fD/7O7s/+zu7P/s7uz/7O7s
-/+zu7P/s7uz/8vTy/3l5eYPg4eD07u/t/+zu7P/s7uz/7O7s/+zu7P/s7uz/7O7s/+zu7P/v8O//o6Oj
-/2lpaf9tbW3/bW1t/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t/21tbf9tbW3/ampq
-/46Ojv/u7+3/7O7s/+zu7P/s7uz/7O7s/+zu7P/s7uz/7O7s//Hy8f+DhYOP09XT5e7v7f/s7uz/7O7s
-/+zu7P/s7uz/7O7s/+zu7P/s7uz/7/Dv/9vb2/90dHT/a2tr/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t
-/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t/2pqav+8vLz/8fLx/+zu7P/s7uz/7O7s/+zu7P/s7uz/7O7s
-/+zu7P/y9PL/eXl5g7i4uMfw8fD/7O7s/+zu7P/s7uz/7O7s/+zu7P/s7uz/7O7s/+zu7P/w8fD/n5+f
-/2hoaP9tbW3/bW1t/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t/2pqav+CgoL/5ufm
-/+7v7f/s7uz/7O7s/+zu7P/s7uz/7O7s/+zu7P/s7uz/9fb1/1hYWGCEhISP8vTy/+zu7P/s7uz/7O7s
-/+zu7P/s7uz/7O7s/+zu7P/s7uz/7/Dv/9vc2/93eHf/a2tr/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t
-/21tbf9tbW3/bW1t/2xsbP9sbGz/wMG///Hy8f/s7uz/7O7s/+zu7P/s7uz/7O7s/+zu7P/s7uz/7u/t
-/+vt6vwzMzM4R0dHTvHy8f/s7uz/7O7s/+zu7P/s7uz/7O7s/+zu7P/s7uz/7O7s/+zu7P/x8vH/vL28
-/2xsbP9sbGz/bW1t/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t/21tbf9oaGj/nZ6d/+/w7//s7uz/7O7s
-/+zu7P/s7uz/7O7s/+zu7P/s7uz/7O7s//Hy8f/T1dPlGRkZHBkZGR3V2NXn8PHw/+zu7P/s7uz/7O7s
-/+zu7P/s7uz/7O7s/+zu7P/s7uz/7O7s//Dx8P+srKz/bm5u/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t
-/21tbf9ra2v/kJGQ/+bn5v/u7+3/7O7s/+zu7P/s7uz/7O7s/+zu7P/s7uz/7O7s/+zu7P/19vX/ra6t
-uwICAgIAAAAAoKGfrPb49v/s7uz/7O7s/+zu7P/s7uz/7O7s/+zu7P/s7uz/7O7s/+zu7P/u7+3/7O7s
-/4WFhf9ra2v/bW1t/21tbf9tbW3/bW1t/21tbf9ra2v/f39//+Tl5P/v8O//7O7s/+zu7P/s7uz/7O7s
-/+zu7P/s7uz/7O7s/+zu7P/s7uz/9vj2/2JjYmsAAAAAAAAAAEtLS1Ly8vL/7O/s/+zu7P/s7uz/7O7s
-/+zu7P/s7uz/7O7s/+zu7P/s7uz/7/Dv/9rb2v90dHT/bGxs/21tbf9tbW3/bW1t/21tbf9tbW3/bGxs
-/3R0dP/b3Nv/7/Dv/+zu7P/s7uz/7O7s/+zu7P/s7uz/7O7s/+zu7P/s7uz/8PHw/9ja2OodHR0gAAAA
-AAAAAAAKCgoKvLy8zPX29f/s7uz/7O7s/+zu7P/s7uz/7O7s/+zu7P/s7uz/7u/t/+/w7/+bnJv/ampq
-/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t/21tbf9qamr/m5ub/+/w7//u7+3/7O7s/+zu7P/s7uz/7O7s
-/+zu7P/s7uz/7O7s//n6+f+GhoaSAAAAAAAAAAAAAAAAAAAAAFBSUFjx8vH/7u/t/+zu7P/s7uz/7O7s
-/+zu7P/u7+3/8fLx/+rs6v+lpaX/a2tr/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t
-/2tra/+lpaX/6uzq//Hy8f/u7+3/7O7s/+zu7P/s7uz/7O7s//Hy8f/b3NvqIiIiJQAAAAAAAAAAAAAA
-AAAAAAAFBQUFoKGgrvf59//s7uz/7/Dv//Dx8P/x8vH/5ebl/8PEw/+JiYn/ampq/21tbf9tbW3/bW1t
-/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t/21tbf9tbW3/ampq/4mJif/ExMT/5ebl//Hy8f/w8fD/7vDt
-/+7v7f/1+PX/aWlpcgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4eHiHP0M7e9vj2/+Hi4f/FxcX/n5+f
-/4CAgP9sbGz/ampq/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t
-/21tbf9qamr/bGxs/4CAgP+fn5//xcXF/+Hi4f/5+vn/o6SirwYGBggAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAPT09QaipqO17e3v/a2tr/2lpaf9ra2v/bW1t/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t
-/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t/21tbf9ra2v/aWlp/2tra/+AgID/i4uL
-zRkZGRkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1NTVLfHx863BwcP9ra2v/bW1t
-/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t
-/21tbf9tbW3/bW1t/2xsbP9ycnL/YmJiyxISEiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAADM0Mz2GhobXfHx8/2pqav9sbGz/bW1t/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t
-/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t/21tbf9tbW3/bGxs/2xsbP96enr/Z2dnsxUVFRkAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHBwcHH+Af6Oampr8enp6
-/2pqav9qamr/bGxs/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t/21tbf9tbW3/bW1t/2xsbP9qamr/a2tr
-/3x8fP+NjY3vW1tbfAsLCwsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAACAgICSkpKTZ2dncCtrq3/kJCQ/3h4eP9qamr/aWlp/2lpaf9qamr/ampq
-/2pqav9paWn/aWlp/2tra/94eXj/kJGQ/6KkovODg4OjLS0tLwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHBwcHQ0ND
-RY+Rj5y2trbavr+9/bCwsP+bm5v/kZGR/4yMjP+RkZH/m5yb/6+wr/+2t7b2qampz3p7eoQwMDAwAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFBQUFDk5OTltb21wmpuao7CysLu7u7vGrq6u
-to2NjZVXWFdbMDAwMAoKCgoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAA4BAAADAAAAAQAlAAABAQADAAAAAQAlAAABAgADAAAABAAAFhoBAwADAAAAAQABAAAB
-BgADAAAAAQACAAABEQAEAAAAAQAAAAgBEgADAAAAAQABAAABFQADAAAAAQAEAAABFgADAAAAAQAlAAAB
-FwAEAAAAAQAAFWQBHAADAAAAAQABAAABUgADAAAAAQABAAABUwADAAAABAAAFiKHcwAHAAAH2AAAFioA
-AAAAAAgACAAIAAgAAQABAAEAAQAAB9hhcHBsAiAAAG1udHJSR0IgWFlaIAfZAAIAGQALABoAC2Fjc3BB
-UFBMAAAAAGFwcGwAAAAAAAAAAAAAAAAAAAAAAAD21gABAAAAANMtYXBwbAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC2Rlc2MAAAEIAAAAb2RzY20AAAF4AAAFnGNwcnQA
-AAcUAAAAOHd0cHQAAAdMAAAAFHJYWVoAAAdgAAAAFGdYWVoAAAd0AAAAFGJYWVoAAAeIAAAAFHJUUkMA
-AAecAAAADmNoYWQAAAesAAAALGJUUkMAAAecAAAADmdUUkMAAAecAAAADmRlc2MAAAAAAAAAFEdlbmVy
-aWMgUkdCIFByb2ZpbGUAAAAAAAAAAAAAABRHZW5lcmljIFJHQiBQcm9maWxlAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABtbHVjAAAAAAAAAB8AAAAMc2tTSwAAACgA
-AAGEZGFESwAAAC4AAAGsY2FFUwAAACQAAAHadmlWTgAAACQAAAH+cHRCUgAAACYAAAIidWtVQQAAACoA
-AAJIZnJGVQAAACgAAAJyaHVIVQAAACgAAAKaemhUVwAAABYAAALCbmJOTwAAACYAAALYY3NDWgAAACIA
-AAL+aGVJTAAAAB4AAAMgaXRJVAAAACgAAAM+cm9STwAAACQAAANmZGVERQAAACwAAAOKa29LUgAAABYA
-AAO2c3ZTRQAAACYAAALYemhDTgAAABYAAAPMamFKUAAAABoAAAPiZWxHUgAAACIAAAP8cHRQTwAAACYA
-AAQebmxOTAAAACgAAAREZXNFUwAAACYAAAQedGhUSAAAACQAAARsdHJUUgAAACIAAASQZmlGSQAAACgA
-AASyaHJIUgAAACgAAATacGxQTAAAACwAAAUCcnVSVQAAACIAAAUuYXJFRwAAACYAAAVQZW5VUwAAACYA
-AAV2AFYBYQBlAG8AYgBlAGMAbgD9ACAAUgBHAEIAIABwAHIAbwBmAGkAbABHAGUAbgBlAHIAZQBsACAA
-UgBHAEIALQBiAGUAcwBrAHIAaQB2AGUAbABzAGUAUABlAHIAZgBpAGwAIABSAEcAQgAgAGcAZQBuAOgA
-cgBpAGMAQx6lAHUAIABoAOwAbgBoACAAUgBHAEIAIABDAGgAdQBuAGcAUABlAHIAZgBpAGwAIABSAEcA
-QgAgAEcAZQBuAOkAcgBpAGMAbwQXBDAEMwQwBDsETAQ9BDgEOQAgBD8EQAQ+BEQEMAQ5BDsAIABSAEcA
-QgBQAHIAbwBmAGkAbAAgAGcA6QBuAOkAcgBpAHEAdQBlACAAUgBWAEIAwQBsAHQAYQBsAOEAbgBvAHMA
-IABSAEcAQgAgAHAAcgBvAGYAaQBskBp1KAAgAFIARwBCACCCcl9pY8+P8ABHAGUAbgBlAHIAaQBzAGsA
-IABSAEcAQgAtAHAAcgBvAGYAaQBsAE8AYgBlAGMAbgD9ACAAUgBHAEIAIABwAHIAbwBmAGkAbAXkBegF
-1QXkBdkF3AAgAFIARwBCACAF2wXcBdwF2QBQAHIAbwBmAGkAbABvACAAUgBHAEIAIABnAGUAbgBlAHIA
-aQBjAG8AUAByAG8AZgBpAGwAIABSAEcAQgAgAGcAZQBuAGUAcgBpAGMAQQBsAGwAZwBlAG0AZQBpAG4A
-ZQBzACAAUgBHAEIALQBQAHIAbwBmAGkAbMd8vBgAIABSAEcAQgAg1QS4XNMMx3xmbpAaACAAUgBHAEIA
-IGPPj/Blh072TgCCLAAgAFIARwBCACAw1zDtMNUwoTCkMOsDkwO1A70DuQO6A8wAIAPAA8EDvwPGA68D
-uwAgAFIARwBCAFAAZQByAGYAaQBsACAAUgBHAEIAIABnAGUAbgDpAHIAaQBjAG8AQQBsAGcAZQBtAGUA
-ZQBuACAAUgBHAEIALQBwAHIAbwBmAGkAZQBsDkIOGw4jDkQOHw4lDkwAIABSAEcAQgAgDhcOMQ5IDicO
-RA4bAEcAZQBuAGUAbAAgAFIARwBCACAAUAByAG8AZgBpAGwAaQBZAGwAZQBpAG4AZQBuACAAUgBHAEIA
-LQBwAHIAbwBmAGkAaQBsAGkARwBlAG4AZQByAGkBDQBrAGkAIABSAEcAQgAgAHAAcgBvAGYAaQBsAFUA
-bgBpAHcAZQByAHMAYQBsAG4AeQAgAHAAcgBvAGYAaQBsACAAUgBHAEIEHgQxBEkEOAQ5ACAEPwRABD4E
-RAQ4BDsETAAgAFIARwBCBkUGRAZBACAGKgY5BjEGSgZBACAAUgBHAEIAIAYnBkQGOQYnBkUARwBlAG4A
-ZQByAGkAYwAgAFIARwBCACAAUAByAG8AZgBpAGwAZXRleHQAAAAAQ29weXJpZ2h0IDIwMDcgQXBwbGUg
-SW5jLiwgYWxsIHJpZ2h0cyByZXNlcnZlZC4AWFlaIAAAAAAAAPNSAAEAAAABFs9YWVogAAAAAAAAdE0A
-AD3uAAAD0FhZWiAAAAAAAABadQAArHMAABc0WFlaIAAAAAAAACgaAAAVnwAAuDZjdXJ2AAAAAAAAAAEB
-zQAAc2YzMgAAAAAAAQxCAAAF3v//8yYAAAeSAAD9kf//+6L///2jAAAD3AAAwGzSJSYnKFokY2xhc3Nu
-YW1lWCRjbGFzc2VzXxAQTlNCaXRtYXBJbWFnZVJlcKMnKSpaTlNJbWFnZVJlcFhOU09iamVjdNIlJiwt
-V05TQXJyYXmiLCrSJSYvMF5OU011dGFibGVBcnJheaMvLCrTMjMKNDU2V05TV2hpdGVcTlNDb2xvclNw
-YWNlRDAgMAAQA4AM0iUmODlXTlNDb2xvcqI4KtIlJjs8V05TSW1hZ2WiOypfEA9OU0tleWVkQXJjaGl2
-ZXLRP0BUcm9vdIABAAgAEQAaACMALQAyADcARgBMAFcAXgBlAHIAeQCBAIMAhQCKAIwAjgCXAJwApwCp
-AKsArQCyALUAtwC5ALsAvQDCANkA2wDdHuMe6B7zHvwfDx8THx4fJx8sHzQfNx88H0sfTx9WH14fax9w
-H3IfdB95H4EfhB+JH5EflB+mH6kfrgAAAAAAAAIBAAAAAAAAAEEAAAAAAAAAAAAAAAAAAB+wA
-</mutableData>
-        </image>
         <image name="AddBtn" width="45" height="45"/>
         <image name="AgendaBlockImg" width="297" height="222"/>
         <image name="BGForEditProfile" width="320" height="568"/>
         <image name="CalenderImg" width="34" height="40"/>
         <image name="DateImg" width="30" height="30"/>
         <image name="DownloadImg" width="47" height="35"/>
+        <image name="Edit Profile" width="28" height="28"/>
         <image name="EditPhoto" width="78" height="79"/>
         <image name="ExportBgImg" width="320" height="568"/>
         <image name="GoogleImg" width="83" height="29"/>
+        <image name="ISBN Book Deals" width="28" height="21"/>
         <image name="PencilsImg" width="299" height="152"/>
         <image name="Search" width="17" height="20"/>
         <image name="ShareProfileImg" width="26" height="19"/>
         <image name="SilverBG" width="320" height="568"/>
         <image name="SubjectBtnImg" width="176" height="54"/>
-        <image name="Subscribe" width="36" height="32"/>
         <image name="Subscripe" width="97" height="101"/>
         <image name="SyllabusBgImg" width="320" height="568"/>
         <image name="iOSImg" width="65" height="30"/>
