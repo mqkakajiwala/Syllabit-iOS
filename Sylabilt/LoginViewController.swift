@@ -1,21 +1,22 @@
 //
-//  EditProfileViewController.swift
+//  LoginViewController.swift
 //  Sylabilt
 //
-//  Created by Muzamil Hassan on 2/24/17.
+//  Created by Mustafa on 05/03/2017.
 //  Copyright © 2017 Sobia. All rights reserved.
 //
 
 import UIKit
 
-class EditProfileViewController: UIViewController {
-   
+class LoginViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         self.addLeftBarButtonWithImage(UIImage.init(named: "menu")!)
     }
-    
+
+  
 
 }

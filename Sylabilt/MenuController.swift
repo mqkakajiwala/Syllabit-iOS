@@ -11,7 +11,7 @@ import UIKit
 
 class MenuController: UIViewController, UITableViewDelegate,UITableViewDataSource {
     //Mustafa Commenting
-    var labelArray = ["Subscribe","Edit Profile","My Syllabilt","ISBN Book Deals","Export Calendar","Share App","Settings","Logout"];
+    var labelArray = ["Home", "Subscribe","Edit Profile","My Syllabilt","ISBN Book Deals","Export Calendar","Share App","Settings","Logout"];
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,16 +46,16 @@ class MenuController: UIViewController, UITableViewDelegate,UITableViewDataSourc
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         switch indexPath.row {
         case 0:
-//            self.segueToControllers(ControllerIdentifier: "AGENDAVC")
+            self.segueToControllers(ControllerIdentifier: "AGENDAVC")
             break
         case 1:
-//            self.segueToControllers(ControllerIdentifier: "LOGINVC")
+            self.segueToControllers(ControllerIdentifier: "SUBSCRIBEVC")
             break
         case 2:
-//            self.segueToControllers(ControllerIdentifier: "LOGINVC")
+//            self.segueToControllers(ControllerIdentifier: "MYSYLLABITVC")
             break
         case 3:
-//            self.segueToControllers(ControllerIdentifier: "LOGINVC")
+            self.segueToControllers(ControllerIdentifier: "MYSYLLABITVC")
             break
         case 4:
 //            self.segueToControllers(ControllerIdentifier: "LOGINVC")
@@ -67,6 +67,9 @@ class MenuController: UIViewController, UITableViewDelegate,UITableViewDataSourc
 //            self.segueToControllers(ControllerIdentifier: "LOGINVC")
             break
         case 7:
+//            self.segueToControllers(ControllerIdentifier: "LOGINVC")
+            break
+        case 8:
             self.segueToControllers(ControllerIdentifier: "LOGINVC")
             break
         default:

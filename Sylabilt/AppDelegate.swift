@@ -21,16 +21,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        for family in UIFont.familyNames as [String] {
-        print(family)
-            for font in UIFont.fontNames(forFamilyName: family){
-            print("\t\(font)")
-            }
-        }
+//        for family in UIFont.familyNames as [String] {
+//        print(family)
+//            for font in UIFont.fontNames(forFamilyName: family){
+//            print("\t\(font)")
+//            }
+//        }
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         
-        let mainVC = storyboard.instantiateViewController(withIdentifier: "AgendaVC");
+        let mainVC = storyboard.instantiateViewController(withIdentifier: "AGENDAVC");
         let leftVC = storyboard.instantiateViewController(withIdentifier: "SideMenuVC");
 
         

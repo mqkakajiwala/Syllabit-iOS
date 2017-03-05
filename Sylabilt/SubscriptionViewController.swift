@@ -19,6 +19,8 @@ class SubscriptionViewController: UIViewController {
 //            self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
 //        }
         // Do any additional setup after loading the view.
+        self.addLeftBarButtonWithImage(UIImage.init(named: "menu")!)
+        
     }
 
     override func didReceiveMemoryWarning() {

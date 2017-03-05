@@ -25,6 +25,8 @@
 		1AC416481E5DB44200884C8D /* SylabiltTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC416471E5DB44200884C8D /* SylabiltTests.swift */; };
 		1AC416531E5DB44200884C8D /* SylabiltUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC416521E5DB44200884C8D /* SylabiltUITests.swift */; };
 		451C34301E688CA000ABDE0C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451C342F1E688CA000ABDE0C /* Constants.swift */; };
+		45862C141E6C87B100F97DB3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45862C131E6C87B100F97DB3 /* LoginViewController.swift */; };
+		45862C161E6C89B800F97DB3 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45862C151E6C89B800F97DB3 /* UIFont.swift */; };
 		97050D21651612EB9929699D /* Pods_SylabiltUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D107480C5DAD6E5C06ECE1 /* Pods_SylabiltUITests.framework */; };
 		E40AC38BF09FF5D45F7423B3 /* Pods_SylabiltTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E2702F54B9EE88CFE61A7C /* Pods_SylabiltTests.framework */; };
 		F88DE5432A3483E06F81FF94 /* Pods_Sylabilt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7FA0F45840BC59DCA7A044D /* Pods_Sylabilt.framework */; };
@@ -73,6 +75,8 @@
 		1AC416541E5DB44200884C8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3581A510EB5B43D9EAE93B37 /* Pods-SylabiltUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SylabiltUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SylabiltUITests/Pods-SylabiltUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		451C342F1E688CA000ABDE0C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		45862C131E6C87B100F97DB3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		45862C151E6C89B800F97DB3 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
 		527CE14F1D1AC6C2C810AC37 /* Pods-Sylabilt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sylabilt.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sylabilt/Pods-Sylabilt.release.xcconfig"; sourceTree = "<group>"; };
 		5CAF904BAECE0CB8F68EB3A1 /* Pods-SylabiltTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SylabiltTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SylabiltTests/Pods-SylabiltTests.release.xcconfig"; sourceTree = "<group>"; };
 		84E2702F54B9EE88CFE61A7C /* Pods_SylabiltTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SylabiltTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -176,7 +180,9 @@
 		45862C101E6C6E9600F97DB3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				45862C151E6C89B800F97DB3 /* UIFont.swift */,
 				1AC4162F1E5DB44100884C8D /* AppDelegate.swift */,
+				45862C131E6C87B100F97DB3 /* LoginViewController.swift */,
 				1A6F11AF1E5DEE7C00277090 /* MenuController.swift */,
 				1A6F11AB1E5DEDFA00277090 /* AgendaViewController.swift */,
 				451C342F1E688CA000ABDE0C /* Constants.swift */,
@@ -518,8 +524,10 @@
 				1A6F11AC1E5DEDFA00277090 /* AgendaViewController.swift in Sources */,
 				451C34301E688CA000ABDE0C /* Constants.swift in Sources */,
 				1ABFA3671E604812006593A2 /* AddDetailViewController.swift in Sources */,
+				45862C161E6C89B800F97DB3 /* UIFont.swift in Sources */,
 				1ABFA3651E6047C9006593A2 /* AddTaskViewController.swift in Sources */,
 				1A6F11AE1E5DEE2F00277090 /* SubscriptionViewController.swift in Sources */,
+				45862C141E6C87B100F97DB3 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
