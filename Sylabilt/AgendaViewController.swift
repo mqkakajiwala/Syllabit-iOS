@@ -34,6 +34,8 @@ class AgendaViewController: UIViewController {
             self.lineViewBottomConstraint.constant = 4
         }
         
+        self.addLeftBarButtonWithImage(UIImage.init(named: "menu")!)
+    
         
         
         self.nextLabel.transform = CGAffineTransform(rotationAngle: CGFloat(-0.25));

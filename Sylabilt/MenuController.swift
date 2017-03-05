@@ -43,8 +43,42 @@ class MenuController: UIViewController, UITableViewDelegate,UITableViewDataSourc
     }
     
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        switch indexPath.row {
+        case 0:
+//            self.segueToControllers(ControllerIdentifier: "AGENDAVC")
+            break
+        case 1:
+//            self.segueToControllers(ControllerIdentifier: "LOGINVC")
+            break
+        case 2:
+//            self.segueToControllers(ControllerIdentifier: "LOGINVC")
+            break
+        case 3:
+//            self.segueToControllers(ControllerIdentifier: "LOGINVC")
+            break
+        case 4:
+//            self.segueToControllers(ControllerIdentifier: "LOGINVC")
+            break
+        case 5:
+//            self.segueToControllers(ControllerIdentifier: "LOGINVC")
+            break
+        case 6:
+//            self.segueToControllers(ControllerIdentifier: "LOGINVC")
+            break
+        case 7:
+            self.segueToControllers(ControllerIdentifier: "LOGINVC")
+            break
+        default:
+            break
+        }
+    }
     
-    
-    
+    func segueToControllers (ControllerIdentifier : String) {
+        if let controller = self.storyboard?.instantiateViewController(withIdentifier: ControllerIdentifier) {
+            self.slideMenuController()?.mainViewController = controller
+            self.slideMenuController()?.closeLeft()
+        }
+    }
     
 }

@@ -20,7 +20,6 @@
 		1ABFA3691E604892006593A2 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABFA3681E604892006593A2 /* EditProfileViewController.swift */; };
 		1AC416301E5DB44100884C8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC4162F1E5DB44100884C8D /* AppDelegate.swift */; };
 		1AC416351E5DB44100884C8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AC416331E5DB44100884C8D /* Main.storyboard */; };
-		1AC416381E5DB44100884C8D /* Sylabilt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1AC416361E5DB44100884C8D /* Sylabilt.xcdatamodeld */; };
 		1AC4163A1E5DB44100884C8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AC416391E5DB44100884C8D /* Assets.xcassets */; };
 		1AC4163D1E5DB44200884C8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AC4163B1E5DB44200884C8D /* LaunchScreen.storyboard */; };
 		1AC416481E5DB44200884C8D /* SylabiltTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC416471E5DB44200884C8D /* SylabiltTests.swift */; };
@@ -63,7 +62,6 @@
 		1AC4162C1E5DB44100884C8D /* Sylabilt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sylabilt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AC4162F1E5DB44100884C8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AC416341E5DB44100884C8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1AC416371E5DB44100884C8D /* Sylabilt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sylabilt.xcdatamodel; sourceTree = "<group>"; };
 		1AC416391E5DB44100884C8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AC4163C1E5DB44200884C8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AC4163E1E5DB44200884C8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -132,6 +130,7 @@
 				1AC4162D1E5DB44100884C8D /* Products */,
 				E85A3C7418092D9E2780346D /* Pods */,
 				18CFC36CE8A05B26B6D7B0A6 /* Frameworks */,
+				45862C121E6C6EB000F97DB3 /* Fonts */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,24 +147,10 @@
 		1AC4162E1E5DB44100884C8D /* Sylabilt */ = {
 			isa = PBXGroup;
 			children = (
-				1A53D6DE1E65CBDA0054630E /* steelfish_outline.ttf */,
-				1A53D6DF1E65CBDA0054630E /* steelfish_rg_it.ttf */,
-				1A53D6E01E65CBDA0054630E /* steelfish_rg.ttf */,
-				1AC4162F1E5DB44100884C8D /* AppDelegate.swift */,
-				1A6F11AF1E5DEE7C00277090 /* MenuController.swift */,
-				1A6F11AB1E5DEDFA00277090 /* AgendaViewController.swift */,
-				451C342F1E688CA000ABDE0C /* Constants.swift */,
-				1A6F11AD1E5DEE2F00277090 /* SubscriptionViewController.swift */,
-				1ABFA3681E604892006593A2 /* EditProfileViewController.swift */,
-				1ABFA3621E604798006593A2 /* SylabiltViewController.swift */,
-				1ABFA3641E6047C9006593A2 /* AddTaskViewController.swift */,
-				1ABFA3661E604812006593A2 /* AddDetailViewController.swift */,
-				1A4519CA1E633D69004EEF81 /* ExportViewController.swift */,
-				1AC416331E5DB44100884C8D /* Main.storyboard */,
+				45862C111E6C6EA200F97DB3 /* View */,
+				45862C101E6C6E9600F97DB3 /* Controller */,
 				1AC416391E5DB44100884C8D /* Assets.xcassets */,
-				1AC4163B1E5DB44200884C8D /* LaunchScreen.storyboard */,
 				1AC4163E1E5DB44200884C8D /* Info.plist */,
-				1AC416361E5DB44100884C8D /* Sylabilt.xcdatamodeld */,
 			);
 			path = Sylabilt;
 			sourceTree = "<group>";
@@ -186,6 +171,43 @@
 				1AC416541E5DB44200884C8D /* Info.plist */,
 			);
 			path = SylabiltUITests;
+			sourceTree = "<group>";
+		};
+		45862C101E6C6E9600F97DB3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1AC4162F1E5DB44100884C8D /* AppDelegate.swift */,
+				1A6F11AF1E5DEE7C00277090 /* MenuController.swift */,
+				1A6F11AB1E5DEDFA00277090 /* AgendaViewController.swift */,
+				451C342F1E688CA000ABDE0C /* Constants.swift */,
+				1A6F11AD1E5DEE2F00277090 /* SubscriptionViewController.swift */,
+				1ABFA3681E604892006593A2 /* EditProfileViewController.swift */,
+				1ABFA3621E604798006593A2 /* SylabiltViewController.swift */,
+				1ABFA3641E6047C9006593A2 /* AddTaskViewController.swift */,
+				1ABFA3661E604812006593A2 /* AddDetailViewController.swift */,
+				1A4519CA1E633D69004EEF81 /* ExportViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		45862C111E6C6EA200F97DB3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1AC416331E5DB44100884C8D /* Main.storyboard */,
+				1AC4163B1E5DB44200884C8D /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		45862C121E6C6EB000F97DB3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1A53D6DE1E65CBDA0054630E /* steelfish_outline.ttf */,
+				1A53D6DF1E65CBDA0054630E /* steelfish_rg_it.ttf */,
+				1A53D6E01E65CBDA0054630E /* steelfish_rg.ttf */,
+			);
+			name = Fonts;
+			path = Sylabilt;
 			sourceTree = "<group>";
 		};
 		E85A3C7418092D9E2780346D /* Pods */ = {
@@ -489,7 +511,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1ABFA3691E604892006593A2 /* EditProfileViewController.swift in Sources */,
-				1AC416381E5DB44100884C8D /* Sylabilt.xcdatamodeld in Sources */,
 				1A4519CB1E633D69004EEF81 /* ExportViewController.swift in Sources */,
 				1A6F11B01E5DEE7C00277090 /* MenuController.swift in Sources */,
 				1ABFA3631E604798006593A2 /* SylabiltViewController.swift in Sources */,
@@ -793,19 +814,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		1AC416361E5DB44100884C8D /* Sylabilt.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				1AC416371E5DB44100884C8D /* Sylabilt.xcdatamodel */,
-			);
-			currentVersion = 1AC416371E5DB44100884C8D /* Sylabilt.xcdatamodel */;
-			path = Sylabilt.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 1AC416241E5DB44000884C8D /* Project object */;
 }

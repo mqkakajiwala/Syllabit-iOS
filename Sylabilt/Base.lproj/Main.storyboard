@@ -5,6 +5,7 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
@@ -33,7 +34,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Hello John" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="viY-yz-vzW">
-                                    <rect key="frame" x="8" y="24" width="66" height="33"/>
+                                    <rect key="frame" x="8" y="24.5" width="66" height="32.5"/>
                                     <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="27"/>
                                     <color key="textColor" red="0.38823529410000002" green="0.38823529410000002" blue="0.38823529410000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <nil key="highlightedColor"/>
@@ -93,7 +94,7 @@
         <scene sceneID="9wz-dZ-Jc7">
             <objects>
                 <navigationController id="5pD-kh-n4e" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="cXe-nP-ms9">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="cXe-nP-ms9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.17254901960784313" green="0.73333333333333328" blue="0.40784313725490196" alpha="1" colorSpace="calibratedRGB"/>
@@ -117,7 +118,7 @@
                 <navigationController navigationBarHidden="YES" id="jm0-ij-dea" sceneMemberID="viewController">
                     <nil key="simulatedStatusBarMetrics"/>
                     <nil key="simulatedTopBarMetrics"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="NKl-f6-T7X">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="NKl-f6-T7X">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.17254901959999999" green="0.73333333329999995" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -283,13 +284,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HxB-sI-9ll" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-847" y="2356"/>
+            <point key="canvasLocation" x="1246.875" y="2334.9926793557829"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="x5W-DD-ytQ">
             <objects>
                 <navigationController id="oof-or-f9s" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="xZ7-h7-gOy">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="xZ7-h7-gOy">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.17254901959999999" green="0.73333333329999995" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -305,6 +306,114 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rx6-cr-ueV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-983" y="1437"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="00P-cF-WWl">
+            <objects>
+                <viewController id="Iae-ew-1e7" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6n6-Ug-Lcm"/>
+                        <viewControllerLayoutGuide type="bottom" id="lRr-2N-82D"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aLJ-ex-u8G">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="registerbg" translatesAutoresizingMaskIntoConstraints="NO" id="TCh-Sr-GGz">
+                                <rect key="frame" x="0.0" y="64" width="1024" height="1302"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Register" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ooi-4h-u3e">
+                                <rect key="frame" x="482" y="214" width="61" height="36"/>
+                                <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uSv-1B-BZ6">
+                                <rect key="frame" x="0.0" y="232" width="432" height="1"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="Gc5-Gi-krh"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qba-d3-Bib">
+                                <rect key="frame" x="593" y="232" width="431" height="1"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="JlS-q1-2UW"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="with .." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bwC-6b-dSL">
+                                <rect key="frame" x="500" y="290" width="25" height="21"/>
+                                <fontDescription key="fontDescription" name="SteelfishRg-Italic" family="Steelfish" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="or .." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X1H-oJ-qNY">
+                                <rect key="frame" x="505" y="445.5" width="15.5" height="20"/>
+                                <fontDescription key="fontDescription" name="SteelfishRg-Italic" family="Steelfish" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sTJ-ay-YZK">
+                                <rect key="frame" x="421" y="351" width="182" height="54.5"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W7y-4W-xhN">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="54.5"/>
+                                        <state key="normal" image="facebook"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TSZ-zl-mCg">
+                                        <rect key="frame" x="66" y="1" width="50" height="54.5"/>
+                                        <state key="normal" image="twitter"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gc7-Du-lFa">
+                                        <rect key="frame" x="132" y="0.0" width="50" height="54.5"/>
+                                        <state key="normal" image="googleplus"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="W7y-4W-xhN" firstAttribute="height" secondItem="sTJ-ay-YZK" secondAttribute="height" id="9ob-bZ-fy1"/>
+                                    <constraint firstItem="W7y-4W-xhN" firstAttribute="leading" secondItem="sTJ-ay-YZK" secondAttribute="leading" id="Bgc-VX-rc8"/>
+                                    <constraint firstAttribute="bottom" secondItem="TSZ-zl-mCg" secondAttribute="bottom" constant="-1" id="CYE-Ai-TCn"/>
+                                    <constraint firstAttribute="bottom" secondItem="W7y-4W-xhN" secondAttribute="bottom" id="EOP-g7-zKT"/>
+                                    <constraint firstItem="Gc7-Du-lFa" firstAttribute="leading" secondItem="TSZ-zl-mCg" secondAttribute="trailing" constant="16" id="LiT-HH-Jlx"/>
+                                    <constraint firstAttribute="bottom" secondItem="Gc7-Du-lFa" secondAttribute="bottom" id="OLI-vo-5hK"/>
+                                    <constraint firstItem="W7y-4W-xhN" firstAttribute="top" secondItem="sTJ-ay-YZK" secondAttribute="top" id="WAv-mj-LtS"/>
+                                    <constraint firstItem="Gc7-Du-lFa" firstAttribute="top" secondItem="sTJ-ay-YZK" secondAttribute="top" id="myK-5n-Bnh"/>
+                                    <constraint firstAttribute="trailing" secondItem="Gc7-Du-lFa" secondAttribute="trailing" id="sRj-YH-l6s"/>
+                                    <constraint firstAttribute="width" secondItem="sTJ-ay-YZK" secondAttribute="height" multiplier="10:3" id="uHe-tV-m1D"/>
+                                    <constraint firstItem="TSZ-zl-mCg" firstAttribute="leading" secondItem="W7y-4W-xhN" secondAttribute="trailing" constant="16" id="xGc-hP-Gjw"/>
+                                    <constraint firstItem="TSZ-zl-mCg" firstAttribute="top" secondItem="sTJ-ay-YZK" secondAttribute="top" constant="1" id="ytR-gx-FeV"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="X1H-oJ-qNY" firstAttribute="centerX" secondItem="aLJ-ex-u8G" secondAttribute="centerX" id="2i1-5s-0Dj"/>
+                            <constraint firstItem="uSv-1B-BZ6" firstAttribute="leading" secondItem="aLJ-ex-u8G" secondAttribute="leading" id="7Qe-Lp-pYT"/>
+                            <constraint firstItem="Ooi-4h-u3e" firstAttribute="top" secondItem="6n6-Ug-Lcm" secondAttribute="bottom" constant="150" id="AMS-9E-Kn6"/>
+                            <constraint firstAttribute="trailing" secondItem="TCh-Sr-GGz" secondAttribute="trailing" id="AWC-rU-mWF"/>
+                            <constraint firstItem="lRr-2N-82D" firstAttribute="top" secondItem="TCh-Sr-GGz" secondAttribute="bottom" id="Ahw-xf-2TX"/>
+                            <constraint firstItem="TCh-Sr-GGz" firstAttribute="top" secondItem="6n6-Ug-Lcm" secondAttribute="bottom" id="CfP-lH-d6v"/>
+                            <constraint firstItem="sTJ-ay-YZK" firstAttribute="top" secondItem="bwC-6b-dSL" secondAttribute="bottom" constant="40" id="Gvg-16-niN"/>
+                            <constraint firstItem="X1H-oJ-qNY" firstAttribute="top" secondItem="sTJ-ay-YZK" secondAttribute="bottom" constant="40" id="H0e-0l-YCj"/>
+                            <constraint firstItem="sTJ-ay-YZK" firstAttribute="centerX" secondItem="aLJ-ex-u8G" secondAttribute="centerX" id="Lhj-v4-fkN"/>
+                            <constraint firstItem="Ooi-4h-u3e" firstAttribute="centerX" secondItem="aLJ-ex-u8G" secondAttribute="centerX" id="ZiZ-Bu-ebB"/>
+                            <constraint firstAttribute="trailing" secondItem="Qba-d3-Bib" secondAttribute="trailing" id="aDV-3q-zIf"/>
+                            <constraint firstItem="Qba-d3-Bib" firstAttribute="centerY" secondItem="Ooi-4h-u3e" secondAttribute="centerY" id="aQs-sE-oG7"/>
+                            <constraint firstItem="Qba-d3-Bib" firstAttribute="leading" secondItem="Ooi-4h-u3e" secondAttribute="trailing" constant="50" id="c7m-mB-XCP"/>
+                            <constraint firstItem="bwC-6b-dSL" firstAttribute="top" secondItem="Ooi-4h-u3e" secondAttribute="bottom" constant="40" id="cz7-2A-cd6"/>
+                            <constraint firstItem="TCh-Sr-GGz" firstAttribute="leading" secondItem="aLJ-ex-u8G" secondAttribute="leading" id="gTh-ns-rqW"/>
+                            <constraint firstItem="uSv-1B-BZ6" firstAttribute="centerY" secondItem="Ooi-4h-u3e" secondAttribute="centerY" id="iBk-Vf-N44"/>
+                            <constraint firstItem="bwC-6b-dSL" firstAttribute="centerX" secondItem="aLJ-ex-u8G" secondAttribute="centerX" id="ph1-cf-hVL"/>
+                            <constraint firstItem="Ooi-4h-u3e" firstAttribute="leading" secondItem="uSv-1B-BZ6" secondAttribute="trailing" constant="50" id="qtI-eN-naN"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="duG-WX-Bv3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lhJ-6i-Jpn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-120.11718749999999" y="2195.7540263543192"/>
         </scene>
         <!--MY SYLLABILT-->
         <scene sceneID="uwB-6X-jDK">
@@ -900,9 +1009,6 @@ Go 4.0 Subscription</string>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="Fgg-y0-VQB" userLabel="Map">
                         <leftBarButtonItems>
-                            <barButtonItem image="menu" id="qrO-US-cim">
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </barButtonItem>
                             <barButtonItem title="AGENDA " width="42" id="A4G-Eo-LlT">
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </barButtonItem>
@@ -926,7 +1032,6 @@ Go 4.0 Subscription</string>
                         <outlet property="dayBarButtonOutlet" destination="its-44-rHj" id="Bi5-zi-eEf"/>
                         <outlet property="dayLabel" destination="rDE-zo-ad3" id="uuI-LJ-XEF"/>
                         <outlet property="lineViewBottomConstraint" destination="AhH-S7-tvU" id="Epd-lt-eDs"/>
-                        <outlet property="menuButton" destination="qrO-US-cim" id="pKq-Kh-8r2"/>
                         <outlet property="monthBarButtonOutlet" destination="Ud5-MZ-sY3" id="dih-oo-cch"/>
                         <outlet property="nextLabel" destination="hd3-dT-124" id="EfV-PQ-U4z"/>
                         <outlet property="weekBarButtonOutlet" destination="0Hl-58-KTU" id="t9p-cf-oiS"/>
@@ -940,7 +1045,7 @@ Go 4.0 Subscription</string>
         <scene sceneID="xbe-pQ-1zj">
             <objects>
                 <navigationController storyboardIdentifier="AgendaVC" id="Nki-Au-GMK" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="BaR-65-K1W">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="BaR-65-K1W">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.17254901959999999" green="0.73333333329999995" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -952,6 +1057,24 @@ Go 4.0 Subscription</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0bB-xs-J57" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-257.8125" y="-625.0366032210834"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="vYe-jD-rkb">
+            <objects>
+                <navigationController storyboardIdentifier="LOGINVC" automaticallyAdjustsScrollViewInsets="NO" id="wp1-FX-dd0" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="o6B-gr-lkv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Iae-ew-1e7" kind="relationship" relationship="rootViewController" id="zim-MK-EcR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rbe-tC-HcS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-986.13281249999989" y="2195.7540263543192"/>
         </scene>
     </scenes>
     <resources>
@@ -973,7 +1096,11 @@ Go 4.0 Subscription</string>
         <image name="SubjectBtnImg" width="176" height="54"/>
         <image name="Subscripe" width="97" height="101"/>
         <image name="SyllabusBgImg" width="320" height="568"/>
+        <image name="facebook" width="50" height="50"/>
+        <image name="googleplus" width="50" height="50"/>
         <image name="iOSImg" width="65" height="30"/>
         <image name="menu" width="20" height="16"/>
+        <image name="registerbg" width="320" height="568"/>
+        <image name="twitter" width="50" height="50"/>
     </resources>
 </document>
