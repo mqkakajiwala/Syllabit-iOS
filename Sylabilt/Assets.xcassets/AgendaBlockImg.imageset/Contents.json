@@ -2,7 +2,7 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Agendafieldbg@1x.png",
+      "filename" : "Agendafieldbg.png",
       "scale" : "1x"
     },
     {
@@ -12,7 +12,7 @@
     },
     {
       "idiom" : "universal",
-      "filename" : "agendataskbg.png",
+      "filename" : "agendataskbg@3x.png",
       "scale" : "3x"
     }
   ],
