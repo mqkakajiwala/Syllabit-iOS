@@ -93,10 +93,9 @@
         <scene sceneID="9wz-dZ-Jc7">
             <objects>
                 <navigationController storyboardIdentifier="SUBSCRIBEVC" id="5pD-kh-n4e" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="cXe-nP-ms9">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="cXe-nP-ms9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.17254901960784313" green="0.73333333333333328" blue="0.40784313725490196" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="27"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -226,16 +225,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HxB-sI-9ll" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2750" y="2314"/>
+            <point key="canvasLocation" x="605" y="2472"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="x5W-DD-ytQ">
             <objects>
                 <navigationController storyboardIdentifier="MYSYLLABITVC" id="oof-or-f9s" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="xZ7-h7-gOy">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="xZ7-h7-gOy">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.17254901959999999" green="0.73333333329999995" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="27"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -265,27 +263,27 @@
                                 <rect key="frame" x="0.0" y="64" width="1024" height="1302"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Register" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ooi-4h-u3e">
-                                <rect key="frame" x="482" y="214" width="61" height="36"/>
+                                <rect key="frame" x="481.5" y="214" width="61" height="36"/>
                                 <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uSv-1B-BZ6">
-                                <rect key="frame" x="0.0" y="232" width="432" height="1"/>
+                                <rect key="frame" x="0.0" y="232" width="431.5" height="1"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="Gc5-Gi-krh"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qba-d3-Bib">
-                                <rect key="frame" x="593" y="232" width="431" height="1"/>
+                                <rect key="frame" x="592.5" y="232" width="431.5" height="1"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="JlS-q1-2UW"/>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="with .." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bwC-6b-dSL">
-                                <rect key="frame" x="500" y="290" width="25" height="21"/>
+                                <rect key="frame" x="499.5" y="290" width="25" height="21"/>
                                 <fontDescription key="fontDescription" name="SteelfishRg-Italic" family="Steelfish" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -329,81 +327,92 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mGr-GB-ijt">
-                                <rect key="frame" x="338" y="496.5" width="348" height="69"/>
+                                <rect key="frame" x="20" y="496.5" width="984" height="69"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mUe-Vu-LSL">
-                                        <rect key="frame" x="0.0" y="8" width="41" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="SteelfishRg-Italic" family="Steelfish" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V6X-uo-H50">
-                                        <rect key="frame" x="290" y="0.0" width="33" height="36"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <string key="text">Handle
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ChY-jR-Gws">
+                                        <rect key="frame" x="318" y="0.0" width="348" height="69"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mUe-Vu-LSL">
+                                                <rect key="frame" x="0.0" y="8" width="41" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="SteelfishRg-Italic" family="Steelfish" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V6X-uo-H50">
+                                                <rect key="frame" x="290" y="0.0" width="33" height="36"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Handle
 Available</string>
-                                        <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="15"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="@PapaGio27" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rWT-9Q-LcK">
-                                        <rect key="frame" x="61" y="0.0" width="174" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="@PapaGio27" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rWT-9Q-LcK">
+                                                <rect key="frame" x="61" y="0.0" width="174" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tst-dB-3ca">
+                                                <rect key="frame" x="61" y="30" width="174" height="1"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yvM-UE-Ife">
+                                                <rect key="frame" x="0.0" y="47" width="41" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="SteelfishRg-Italic" family="Steelfish" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="ilovesylabit123" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X4o-n2-UJw">
+                                                <rect key="frame" x="61" y="38" width="174" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MLg-wd-9EC">
+                                                <rect key="frame" x="61" y="68" width="174" height="1"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            </view>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tick" translatesAutoresizingMaskIntoConstraints="NO" id="h3O-Vl-TZb">
+                                                <rect key="frame" x="251" y="14" width="19" height="17"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tick" translatesAutoresizingMaskIntoConstraints="NO" id="VNV-bH-X4N">
+                                                <rect key="frame" x="251" y="51" width="19" height="17"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Show Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u2r-qf-UhV">
+                                                <rect key="frame" x="290" y="51" width="58" height="18"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tst-dB-3ca">
-                                        <rect key="frame" x="61" y="30" width="174" height="1"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="348" id="adD-MF-0w6"/>
+                                        </constraints>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yvM-UE-Ife">
-                                        <rect key="frame" x="0.0" y="47" width="41" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="SteelfishRg-Italic" family="Steelfish" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="ilovesylabit123" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X4o-n2-UJw">
-                                        <rect key="frame" x="61" y="38" width="174" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MLg-wd-9EC">
-                                        <rect key="frame" x="61" y="68" width="174" height="1"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                    </view>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tick" translatesAutoresizingMaskIntoConstraints="NO" id="h3O-Vl-TZb">
-                                        <rect key="frame" x="251" y="14" width="19" height="17"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tick" translatesAutoresizingMaskIntoConstraints="NO" id="VNV-bH-X4N">
-                                        <rect key="frame" x="251" y="51" width="19" height="17"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Show Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u2r-qf-UhV">
-                                        <rect key="frame" x="290" y="51" width="58" height="18"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="15"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="mGr-GB-ijt" secondAttribute="height" multiplier="116:23" id="WNh-dN-A2g"/>
+                                    <constraint firstItem="ChY-jR-Gws" firstAttribute="height" secondItem="mGr-GB-ijt" secondAttribute="height" id="KRJ-XR-E5C"/>
                                     <constraint firstAttribute="height" constant="69" id="ZAm-R6-tLf"/>
+                                    <constraint firstItem="ChY-jR-Gws" firstAttribute="centerY" secondItem="mGr-GB-ijt" secondAttribute="centerY" id="ipl-jg-9rv"/>
+                                    <constraint firstItem="ChY-jR-Gws" firstAttribute="centerX" secondItem="mGr-GB-ijt" secondAttribute="centerX" id="uGp-US-N4T"/>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i6W-bK-omq">
-                                <rect key="frame" x="391" y="605.5" width="243" height="41"/>
+                                <rect key="frame" x="390.5" y="605.5" width="243" height="41"/>
                                 <string key="text">By registering I confirm I am over the age of 13 and agree to
 Privacy Terms &amp; Agreements.</string>
                                 <fontDescription key="fontDescription" name="SteelfishRg-Italic" family="Steelfish" pointSize="17"/>
@@ -411,7 +420,7 @@ Privacy Terms &amp; Agreements.</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Edb-dy-Q0k">
-                                <rect key="frame" x="439" y="666.5" width="147" height="37"/>
+                                <rect key="frame" x="438.5" y="666.5" width="147" height="37"/>
                                 <state key="normal" image="registerbutton"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pcW-eD-yCR">
@@ -456,18 +465,27 @@ Privacy Terms &amp; Agreements.</string>
                             <constraint firstItem="TCh-Sr-GGz" firstAttribute="leading" secondItem="aLJ-ex-u8G" secondAttribute="leading" id="gTh-ns-rqW"/>
                             <constraint firstItem="uSv-1B-BZ6" firstAttribute="centerY" secondItem="Ooi-4h-u3e" secondAttribute="centerY" id="iBk-Vf-N44"/>
                             <constraint firstItem="i6W-bK-omq" firstAttribute="top" secondItem="mGr-GB-ijt" secondAttribute="bottom" constant="40" id="kBY-lD-Y6H"/>
+                            <constraint firstItem="mGr-GB-ijt" firstAttribute="leading" secondItem="aLJ-ex-u8G" secondAttribute="leading" constant="20" id="l3E-fM-ywf"/>
                             <constraint firstItem="i6W-bK-omq" firstAttribute="centerX" secondItem="aLJ-ex-u8G" secondAttribute="centerX" id="mYX-Kg-7Yx"/>
-                            <constraint firstItem="mGr-GB-ijt" firstAttribute="centerX" secondItem="aLJ-ex-u8G" secondAttribute="centerX" id="p02-3L-xPF"/>
                             <constraint firstItem="bwC-6b-dSL" firstAttribute="centerX" secondItem="aLJ-ex-u8G" secondAttribute="centerX" id="ph1-cf-hVL"/>
+                            <constraint firstAttribute="trailing" secondItem="mGr-GB-ijt" secondAttribute="trailing" constant="20" id="qJw-4L-cNX"/>
                             <constraint firstItem="Ooi-4h-u3e" firstAttribute="leading" secondItem="uSv-1B-BZ6" secondAttribute="trailing" constant="50" id="qtI-eN-naN"/>
                             <constraint firstItem="Fpq-fF-zlf" firstAttribute="leading" secondItem="pcW-eD-yCR" secondAttribute="leading" id="tY4-zy-z80"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="duG-WX-Bv3"/>
+                    <connections>
+                        <outlet property="orLabelBottomConstraint" destination="Hrq-TW-yc2" id="MMx-V8-GoD"/>
+                        <outlet property="orLabelTopConstraint" destination="H0e-0l-YCj" id="Jy5-tv-dWZ"/>
+                        <outlet property="registerLabelTopConstraint" destination="AMS-9E-Kn6" id="KMa-RM-U4e"/>
+                        <outlet property="textFieldsViewBottomConstraint" destination="kBY-lD-Y6H" id="esQ-8p-nnw"/>
+                        <outlet property="withLabelBottomConstraint" destination="Gvg-16-niN" id="it6-cI-ycq"/>
+                        <outlet property="withLabelTopConstraint" destination="cz7-2A-cd6" id="SXS-NI-F1Z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lhJ-6i-Jpn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="604" y="1680"/>
+            <point key="canvasLocation" x="603.515625" y="1679.6486090775986"/>
         </scene>
         <!--MY SYLLABILT-->
         <scene sceneID="uwB-6X-jDK">
@@ -863,10 +881,9 @@ Go 4.0 Subscription</string>
         <scene sceneID="xbe-pQ-1zj">
             <objects>
                 <navigationController storyboardIdentifier="AGENDAVC" id="Nki-Au-GMK" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="BaR-65-K1W">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="BaR-65-K1W">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.17254901959999999" green="0.73333333329999995" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <connections>
                         <segue destination="cQ9-jL-fAA" kind="relationship" relationship="rootViewController" id="w6g-Jn-YaR"/>
@@ -881,10 +898,9 @@ Go 4.0 Subscription</string>
             <objects>
                 <navigationController storyboardIdentifier="LOGINVC" automaticallyAdjustsScrollViewInsets="NO" id="wp1-FX-dd0" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="o6B-gr-lkv">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="o6B-gr-lkv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.17254901959999999" green="0.73333333329999995" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>

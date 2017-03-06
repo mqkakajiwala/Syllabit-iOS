@@ -21,12 +21,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-//        for family in UIFont.familyNames as [String] {
-//        print(family)
-//            for font in UIFont.fontNames(forFamilyName: family){
-//            print("\t\(font)")
-//            }
-//        }
+
+        UINavigationBar.appearance().barTintColor = UIColor.init(colorLiteralRed: 44.0/255.0, green: 187.0/255.0, blue: 104.0/255.0, alpha: 1.0)
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         
