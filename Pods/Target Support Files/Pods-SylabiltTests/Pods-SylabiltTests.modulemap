@@ -1,0 +1,6 @@
+framework module Pods_SylabiltTests {
+  umbrella header "Pods-SylabiltTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
