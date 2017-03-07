@@ -1,12 +1,15 @@
 PODS:
+  - PageMenu (1.2.9)
   - SlideMenuControllerSwift (3.0.1)
 
 DEPENDENCIES:
+  - PageMenu
   - SlideMenuControllerSwift
 
 SPEC CHECKSUMS:
+  PageMenu: ba19ff267f7a19e444e93c20a7847b78954a7011
   SlideMenuControllerSwift: 9a163b16d54afab734add42858cba7ef7c307755
 
-PODFILE CHECKSUM: 3065ebebe09b168f85d6696fbb092959cf15df4e
+PODFILE CHECKSUM: 7b6a365bee64392e0b45c11a0840b8ed3e1dc002
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.2.0

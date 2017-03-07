@@ -6,7 +6,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -288,7 +287,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="or .." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X1H-oJ-qNY">
-                                <rect key="frame" x="505" y="444.5" width="15.5" height="20"/>
+                                <rect key="frame" x="504.5" y="444.5" width="15.5" height="20"/>
                                 <fontDescription key="fontDescription" name="SteelfishRg-Italic" family="Steelfish" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -411,7 +410,7 @@ Available</string>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i6W-bK-omq">
-                                <rect key="frame" x="391.5" y="603.5" width="242.5" height="41"/>
+                                <rect key="frame" x="391" y="603.5" width="242.5" height="41"/>
                                 <string key="text">By registering I confirm I am over the age of 13 and agree to
 Privacy Terms &amp; Agreements.</string>
                                 <fontDescription key="fontDescription" name="SteelfishRg-Italic" family="Steelfish" pointSize="17"/>
@@ -651,7 +650,7 @@ Go 4.0 Subscription</string>
                                 <state key="normal" backgroundImage="AddBtn"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's Next?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hd3-dT-124">
-                                <rect key="frame" x="467.5" y="40" width="90" height="34"/>
+                                <rect key="frame" x="467" y="40" width="90" height="34"/>
                                 <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="28"/>
                                 <color key="textColor" red="0.17254901959999999" green="0.73333333329999995" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -669,19 +668,19 @@ Go 4.0 Subscription</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tuesday" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rDE-zo-ad3">
-                                        <rect key="frame" x="352" y="142.5" width="28" height="17"/>
+                                        <rect key="frame" x="352" y="143" width="28" height="17"/>
                                         <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="14"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Due:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aIg-GA-hUH">
-                                        <rect key="frame" x="356.5" y="72.5" width="19" height="22"/>
+                                        <rect key="frame" x="356" y="73" width="19" height="22"/>
                                         <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="18"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="33D-Cr-Iox">
-                                        <rect key="frame" x="351" y="94.5" width="29" height="53"/>
+                                        <rect key="frame" x="351" y="95" width="29" height="53"/>
                                         <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="44"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -761,10 +760,10 @@ Go 4.0 Subscription</string>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HyD-wD-e6q">
-                                <rect key="frame" x="552.5" y="30" width="15" height="15"/>
+                                <rect key="frame" x="552" y="30" width="15" height="15"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XZp-MA-Zch">
-                                        <rect key="frame" x="5" y="2" width="3.5" height="12"/>
+                                        <rect key="frame" x="5.5" y="2" width="3.5" height="12"/>
                                         <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="10"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -808,44 +807,57 @@ Go 4.0 Subscription</string>
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="Fgg-y0-VQB" userLabel="Map">
-                        <leftBarButtonItems>
-                            <barButtonItem title="Item" id="D1Z-yA-zo4"/>
-                            <barButtonItem title="AGENDA " width="42" id="A4G-Eo-LlT">
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </barButtonItem>
-                            <barButtonItem title="Day " id="its-44-rHj">
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                            </barButtonItem>
-                            <barButtonItem title="Month " id="Ud5-MZ-sY3">
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                            </barButtonItem>
-                            <barButtonItem title="Week " id="0Hl-58-KTU">
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                            </barButtonItem>
-                        </leftBarButtonItems>
+                        <barButtonItem key="leftBarButtonItem" title="Item" id="D1Z-yA-zo4"/>
                         <barButtonItem key="rightBarButtonItem" image="Search" id="8aO-RM-HlP">
                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="agendaBarButtonOutlet" destination="A4G-Eo-LlT" id="8nJ-bB-8yd"/>
                         <outlet property="bioLabel" destination="JFG-tD-a4g" id="bde-7A-r6o"/>
                         <outlet property="dateLabel" destination="33D-Cr-Iox" id="7Jr-pF-CJN"/>
-                        <outlet property="dayBarButtonOutlet" destination="its-44-rHj" id="Bi5-zi-eEf"/>
                         <outlet property="dayLabel" destination="rDE-zo-ad3" id="uuI-LJ-XEF"/>
                         <outlet property="lineViewBottomConstraint" destination="AhH-S7-tvU" id="Epd-lt-eDs"/>
-                        <outlet property="monthBarButtonOutlet" destination="Ud5-MZ-sY3" id="dih-oo-cch"/>
                         <outlet property="nextLabel" destination="hd3-dT-124" id="EfV-PQ-U4z"/>
-                        <outlet property="weekBarButtonOutlet" destination="0Hl-58-KTU" id="t9p-cf-oiS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c0G-04-goa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="604.1015625" y="-627.67203513909215"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="ePc-8C-uKp">
+            <objects>
+                <viewController storyboardIdentifier="CHILDVC" id="cQu-wI-I3r" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3Xj-f2-rfa"/>
+                        <viewControllerLayoutGuide type="bottom" id="DJO-bH-Osa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="l3Z-Sk-yq0">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wb5-zI-mjl">
+                                <rect key="frame" x="491" y="673" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Wb5-zI-mjl" firstAttribute="centerX" secondItem="l3Z-Sk-yq0" secondAttribute="centerX" id="WJX-67-616"/>
+                            <constraint firstItem="Wb5-zI-mjl" firstAttribute="centerY" secondItem="l3Z-Sk-yq0" secondAttribute="centerY" id="ttY-oz-Niz"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="56C-YI-EYY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1711" y="-628"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="xbe-pQ-1zj">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0bB-xs-J57" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController storyboardIdentifier="AGENDAVC" id="Nki-Au-GMK" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="BaR-65-K1W">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -855,7 +867,6 @@ Go 4.0 Subscription</string>
                         <segue destination="cQ9-jL-fAA" kind="relationship" relationship="rootViewController" id="w6g-Jn-YaR"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0bB-xs-J57" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-257.8125" y="-625.0366032210834"/>
         </scene>

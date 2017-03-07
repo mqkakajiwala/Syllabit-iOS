@@ -7,7 +7,8 @@ target 'Sylabilt' do
 
   # Pods for Sylabilt
 
-pod 'SlideMenuControllerSwift'
+    pod 'SlideMenuControllerSwift'
+    pod 'PageMenu'
 
   target 'SylabiltTests' do
     inherit! :search_paths
