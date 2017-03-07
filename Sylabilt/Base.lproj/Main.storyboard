@@ -32,7 +32,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Hello John" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="viY-yz-vzW">
-                                    <rect key="frame" x="8" y="25" width="129" height="31.5"/>
+                                    <rect key="frame" x="8" y="24.5" width="66" height="32.5"/>
                                     <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="27"/>
                                     <color key="textColor" red="0.38823529410000002" green="0.38823529410000002" blue="0.38823529410000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <nil key="highlightedColor"/>
@@ -61,7 +61,7 @@
                                             <rect key="frame" x="30" y="30" width="28" height="21"/>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ISBN Book Deals" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XfS-jd-IiO">
-                                            <rect key="frame" x="88" y="24.5" width="208.5" height="31.5"/>
+                                            <rect key="frame" x="88" y="24" width="106.5" height="32.5"/>
                                             <fontDescription key="fontDescription" name="SteelfishRg-Italic" family="Steelfish" pointSize="27"/>
                                             <color key="textColor" red="0.17254901959999999" green="0.73333333329999995" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
@@ -288,7 +288,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="or .." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X1H-oJ-qNY">
-                                <rect key="frame" x="504.5" y="444.5" width="15.5" height="20"/>
+                                <rect key="frame" x="505" y="444.5" width="15.5" height="20"/>
                                 <fontDescription key="fontDescription" name="SteelfishRg-Italic" family="Steelfish" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -411,7 +411,7 @@ Available</string>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i6W-bK-omq">
-                                <rect key="frame" x="391" y="603.5" width="242.5" height="41"/>
+                                <rect key="frame" x="391.5" y="603.5" width="242.5" height="41"/>
                                 <string key="text">By registering I confirm I am over the age of 13 and agree to
 Privacy Terms &amp; Agreements.</string>
                                 <fontDescription key="fontDescription" name="SteelfishRg-Italic" family="Steelfish" pointSize="17"/>
@@ -651,7 +651,7 @@ Go 4.0 Subscription</string>
                                 <state key="normal" backgroundImage="AddBtn"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's Next?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hd3-dT-124">
-                                <rect key="frame" x="427.5" y="40" width="169.5" height="33"/>
+                                <rect key="frame" x="467.5" y="40" width="90" height="34"/>
                                 <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="28"/>
                                 <color key="textColor" red="0.17254901959999999" green="0.73333333329999995" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -663,37 +663,37 @@ Go 4.0 Subscription</string>
                                         <rect key="frame" x="343" y="0.0" width="297" height="222"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Biology" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JFG-tD-a4g">
-                                        <rect key="frame" x="452.5" y="40" width="80.5" height="28"/>
+                                        <rect key="frame" x="471.5" y="40" width="42.5" height="29"/>
                                         <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="24"/>
                                         <color key="textColor" red="1" green="0.98648891630000002" blue="0.1125982099" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tuesday" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rDE-zo-ad3">
-                                        <rect key="frame" x="352" y="142.5" width="52" height="17"/>
+                                        <rect key="frame" x="352" y="142.5" width="28" height="17"/>
                                         <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="14"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Due:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aIg-GA-hUH">
-                                        <rect key="frame" x="359" y="75" width="37.5" height="21"/>
+                                        <rect key="frame" x="356.5" y="72.5" width="19" height="22"/>
                                         <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="18"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="33D-Cr-Iox">
-                                        <rect key="frame" x="351" y="96" width="53" height="51.5"/>
+                                        <rect key="frame" x="351" y="94.5" width="29" height="53"/>
                                         <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="44"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOME WORK" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BMh-SG-38B">
-                                        <rect key="frame" x="348" y="196" width="107" height="20"/>
+                                        <rect key="frame" x="348" y="196" width="52" height="20"/>
                                         <fontDescription key="fontDescription" name="SteelfishRg-Italic" family="Steelfish" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Gx-cX-ZG4" userLabel="LineView">
-                                        <rect key="frame" x="348" y="217" width="107" height="1"/>
+                                        <rect key="frame" x="348" y="217" width="52" height="1"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="fmT-oX-9Ae"/>
@@ -712,7 +712,7 @@ Go 4.0 Subscription</string>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chapter 14.3 review questions on genetics and DNA" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fe6-7P-yrq">
-                                        <rect key="frame" x="329" y="112" width="327.5" height="17"/>
+                                        <rect key="frame" x="406.5" y="112" width="172.5" height="17"/>
                                         <fontDescription key="fontDescription" name="SteelfishRg-Italic" family="Steelfish" pointSize="14"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -761,10 +761,10 @@ Go 4.0 Subscription</string>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HyD-wD-e6q">
-                                <rect key="frame" x="592" y="30" width="15" height="15"/>
+                                <rect key="frame" x="552.5" y="30" width="15" height="15"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XZp-MA-Zch">
-                                        <rect key="frame" x="4" y="2" width="6" height="12"/>
+                                        <rect key="frame" x="5" y="2" width="3.5" height="12"/>
                                         <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="10"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
