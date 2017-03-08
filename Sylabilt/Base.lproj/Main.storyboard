@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="cQ9-jL-fAA">
-    <device id="ipad12_9" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="l0v-ow-8Yp">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -22,22 +22,22 @@
             <objects>
                 <tableViewController storyboardIdentifier="SideMenuVC" id="l0v-ow-8Yp" customClass="MenuController" customModule="Sylabilt" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="22h-z9-8ad">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="fz8-Fb-XrO">
-                            <rect key="frame" x="0.0" y="0.0" width="1024" height="80"/>
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Hello John" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="viY-yz-vzW">
-                                    <rect key="frame" x="8" y="24.5" width="66" height="32.5"/>
+                                    <rect key="frame" x="8" y="24.666666666666664" width="66" height="32.333333333333329"/>
                                     <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="27"/>
                                     <color key="textColor" red="0.38823529410000002" green="0.38823529410000002" blue="0.38823529410000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Edit Profile" translatesAutoresizingMaskIntoConstraints="NO" id="sm1-gA-INt">
-                                    <rect key="frame" x="980" y="26" width="28" height="28"/>
+                                    <rect key="frame" x="370" y="26" width="28" height="28"/>
                                 </imageView>
                             </subviews>
                             <color key="backgroundColor" red="0.17254901959999999" green="0.73333333329999995" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -50,17 +50,17 @@
                         </view>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="80" id="QMp-dL-4ML">
-                                <rect key="frame" x="0.0" y="108" width="1024" height="80"/>
+                                <rect key="frame" x="0.0" y="108" width="414" height="80"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QMp-dL-4ML" id="pBq-Zg-hlv">
-                                    <rect key="frame" x="0.0" y="0.0" width="1024" height="80"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ISBN Book Deals" translatesAutoresizingMaskIntoConstraints="NO" id="cHg-Nx-we6">
                                             <rect key="frame" x="30" y="30" width="28" height="21"/>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ISBN Book Deals" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XfS-jd-IiO">
-                                            <rect key="frame" x="88" y="24" width="106.5" height="32.5"/>
+                                            <rect key="frame" x="87.999999999999986" y="23.999999999999996" width="106.66666666666664" height="32.666666666666657"/>
                                             <fontDescription key="fontDescription" name="SteelfishRg-Italic" family="Steelfish" pointSize="27"/>
                                             <color key="textColor" red="0.17254901959999999" green="0.73333333329999995" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
@@ -85,13 +85,13 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MOl-8M-31c" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-258" y="-1376"/>
+            <point key="canvasLocation" x="2200.1953125" y="-1775.4026354319178"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="9wz-dZ-Jc7">
             <objects>
                 <navigationController storyboardIdentifier="SUBSCRIBEVC" id="5pD-kh-n4e" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="cXe-nP-ms9">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="cXe-nP-ms9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textAttributes key="titleTextAttributes">
@@ -117,7 +117,7 @@
                         <viewControllerLayoutGuide type="bottom" id="NYN-hg-1rw"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="wfv-1t-1FG">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ExportBgImg" translatesAutoresizingMaskIntoConstraints="NO" id="5Q8-mM-yQl">
@@ -229,7 +229,7 @@
         <scene sceneID="x5W-DD-ytQ">
             <objects>
                 <navigationController storyboardIdentifier="MYSYLLABITVC" id="oof-or-f9s" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="xZ7-h7-gOy">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="xZ7-h7-gOy">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textAttributes key="titleTextAttributes">
@@ -254,57 +254,57 @@
                         <viewControllerLayoutGuide type="bottom" id="lRr-2N-82D"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="aLJ-ex-u8G">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="registerbg" translatesAutoresizingMaskIntoConstraints="NO" id="TCh-Sr-GGz">
-                                <rect key="frame" x="0.0" y="64" width="1024" height="1302"/>
+                                <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Register" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ooi-4h-u3e">
-                                <rect key="frame" x="482" y="214" width="60.5" height="36"/>
+                                <rect key="frame" x="177" y="164" width="60.333333333333343" height="36"/>
                                 <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uSv-1B-BZ6">
-                                <rect key="frame" x="0.0" y="232" width="432" height="1"/>
+                                <rect key="frame" x="0.0" y="182" width="127" height="1"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="Gc5-Gi-krh"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qba-d3-Bib">
-                                <rect key="frame" x="592.5" y="232" width="431.5" height="1"/>
+                                <rect key="frame" x="287.33333333333326" y="182" width="126.66666666666669" height="1"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="JlS-q1-2UW"/>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="with .." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bwC-6b-dSL">
-                                <rect key="frame" x="499.5" y="290" width="25" height="20"/>
+                                <rect key="frame" x="194.66666666666666" y="240" width="25" height="20"/>
                                 <fontDescription key="fontDescription" name="SteelfishRg-Italic" family="Steelfish" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="or .." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X1H-oJ-qNY">
-                                <rect key="frame" x="504.5" y="444.5" width="15.5" height="20"/>
+                                <rect key="frame" x="199.33333333333337" y="394.66666666666669" width="15.666666666666657" height="20"/>
                                 <fontDescription key="fontDescription" name="SteelfishRg-Italic" family="Steelfish" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sTJ-ay-YZK">
-                                <rect key="frame" x="421" y="350" width="182" height="54.5"/>
+                                <rect key="frame" x="116" y="300" width="182" height="54.666666666666686"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W7y-4W-xhN">
-                                        <rect key="frame" x="0.0" y="0.0" width="50" height="54.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="54.666666666666686"/>
                                         <state key="normal" image="facebook"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TSZ-zl-mCg">
-                                        <rect key="frame" x="66" y="1" width="50" height="54.5"/>
+                                        <rect key="frame" x="66" y="1" width="50" height="54.666666666666686"/>
                                         <state key="normal" image="twitter"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gc7-Du-lFa">
-                                        <rect key="frame" x="132" y="0.0" width="50" height="54.5"/>
+                                        <rect key="frame" x="132" y="0.0" width="50" height="54.666666666666686"/>
                                         <state key="normal" image="googleplus"/>
                                     </button>
                                 </subviews>
@@ -325,10 +325,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mGr-GB-ijt">
-                                <rect key="frame" x="20" y="494.5" width="984" height="69"/>
+                                <rect key="frame" x="20" y="444.66666666666663" width="374" height="68.999999999999886"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ChY-jR-Gws">
-                                        <rect key="frame" x="318" y="0.0" width="348" height="69"/>
+                                        <rect key="frame" x="13.333333333333343" y="0.0" width="348" height="68.999999999999943"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mUe-Vu-LSL">
                                                 <rect key="frame" x="0.0" y="8" width="41" height="21"/>
@@ -410,7 +410,7 @@ Available</string>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i6W-bK-omq">
-                                <rect key="frame" x="391" y="603.5" width="242.5" height="41"/>
+                                <rect key="frame" x="86" y="553.66666666666663" width="242.33333333333331" height="41"/>
                                 <string key="text">By registering I confirm I am over the age of 13 and agree to
 Privacy Terms &amp; Agreements.</string>
                                 <fontDescription key="fontDescription" name="SteelfishRg-Italic" family="Steelfish" pointSize="17"/>
@@ -418,16 +418,16 @@ Privacy Terms &amp; Agreements.</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Edb-dy-Q0k">
-                                <rect key="frame" x="438.5" y="664.5" width="147" height="37"/>
+                                <rect key="frame" x="112" y="614.66666666666663" width="190" height="47"/>
                                 <state key="normal" image="registerbutton"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pcW-eD-yCR">
-                                <rect key="frame" x="467" y="709.5" width="90" height="28"/>
+                                <rect key="frame" x="162" y="669.66666666666663" width="90" height="28"/>
                                 <fontDescription key="fontDescription" name="SteelfishRg-Italic" family="Steelfish" pointSize="13"/>
                                 <state key="normal" title="Privacy Terms &amp; Agreements"/>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fpq-fF-zlf">
-                                <rect key="frame" x="467" y="737.5" width="90" height="1"/>
+                                <rect key="frame" x="162" y="697.66666666666663" width="90" height="1"/>
                                 <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="xcj-R9-T1F"/>
@@ -494,45 +494,45 @@ Privacy Terms &amp; Agreements.</string>
                         <viewControllerLayoutGuide type="bottom" id="epL-Hg-zKK"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Hni-My-EoJ">
-                        <rect key="frame" x="0.0" y="64" width="1024" height="1302"/>
+                        <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SyllabusBgImg" translatesAutoresizingMaskIntoConstraints="NO" id="hQY-lB-Biy">
-                                <rect key="frame" x="0.0" y="0.0" width="1024" height="1302"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zwE-pR-fkl" userLabel="ContentView">
-                                <rect key="frame" x="0.0" y="0.0" width="1024" height="1302"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IJT-kO-2PH">
-                                        <rect key="frame" x="424" y="30" width="176" height="54"/>
+                                        <rect key="frame" x="93.333333333333314" y="60" width="228" height="69"/>
                                         <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="24"/>
                                         <state key="normal" title="Earth Science" backgroundImage="SubjectBtnImg">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgV-Ow-WyD">
-                                        <rect key="frame" x="424" y="282" width="176" height="54"/>
+                                        <rect key="frame" x="93.333333333333314" y="357" width="228" height="69"/>
                                         <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="24"/>
                                         <state key="normal" title="English 114" backgroundImage="SubjectBtnImg">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nmq-ma-QLD">
-                                        <rect key="frame" x="424" y="198" width="176" height="54"/>
+                                        <rect key="frame" x="93.333333333333314" y="258" width="228" height="69"/>
                                         <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="24"/>
                                         <state key="normal" title="Marketing 188" backgroundImage="SubjectBtnImg">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fba-KL-NKR">
-                                        <rect key="frame" x="424" y="114" width="176" height="54"/>
+                                        <rect key="frame" x="93.333333333333314" y="159" width="228" height="69"/>
                                         <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="24"/>
                                         <state key="normal" title="Accounting A4" backgroundImage="SubjectBtnImg">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9SW-bG-Ohz">
-                                        <rect key="frame" x="424" y="366" width="176" height="54"/>
+                                        <rect key="frame" x="93.333333333333314" y="456" width="228" height="69"/>
                                         <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="24"/>
                                         <state key="normal" title="Chem 183" backgroundImage="SubjectBtnImg">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -544,7 +544,7 @@ Privacy Terms &amp; Agreements.</string>
                                     <constraint firstItem="fba-KL-NKR" firstAttribute="centerX" secondItem="zwE-pR-fkl" secondAttribute="centerX" id="3jt-Z1-zlf"/>
                                     <constraint firstItem="Nmq-ma-QLD" firstAttribute="top" secondItem="fba-KL-NKR" secondAttribute="bottom" constant="30" id="5rK-Dd-MzD"/>
                                     <constraint firstItem="bgV-Ow-WyD" firstAttribute="top" secondItem="Nmq-ma-QLD" secondAttribute="bottom" constant="30" id="Edc-ET-SQ0"/>
-                                    <constraint firstItem="IJT-kO-2PH" firstAttribute="top" secondItem="zwE-pR-fkl" secondAttribute="top" constant="30" id="GdA-6U-swi"/>
+                                    <constraint firstItem="IJT-kO-2PH" firstAttribute="top" secondItem="zwE-pR-fkl" secondAttribute="top" constant="60" id="GdA-6U-swi"/>
                                     <constraint firstItem="Nmq-ma-QLD" firstAttribute="centerX" secondItem="zwE-pR-fkl" secondAttribute="centerX" id="PpP-Xq-jSb"/>
                                     <constraint firstItem="9SW-bG-Ohz" firstAttribute="centerX" secondItem="zwE-pR-fkl" secondAttribute="centerX" id="UsH-WH-Bkn"/>
                                     <constraint firstItem="fba-KL-NKR" firstAttribute="top" secondItem="IJT-kO-2PH" secondAttribute="bottom" constant="30" id="bdO-IW-P2n"/>
@@ -581,11 +581,11 @@ Privacy Terms &amp; Agreements.</string>
                         <viewControllerLayoutGuide type="bottom" id="EIS-yd-4Tj"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="fa4-Jc-VxR">
-                        <rect key="frame" x="0.0" y="64" width="1024" height="1302"/>
+                        <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XeD-4O-Pzy">
-                                <rect key="frame" x="410.5" y="442.5" width="203" height="94"/>
+                                <rect key="frame" x="129" y="149" width="156" height="72"/>
                                 <string key="text">We apologize!
 This feature is only available for 
 Go 4.0 Subscription</string>
@@ -597,10 +597,10 @@ Go 4.0 Subscription</string>
                                 </variation>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Subscripe" translatesAutoresizingMaskIntoConstraints="NO" id="2i9-bp-OWh">
-                                <rect key="frame" x="463.5" y="600.5" width="97" height="101"/>
+                                <rect key="frame" x="144.66666666666669" y="271" width="125.00000000000006" height="130"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PencilsImg" translatesAutoresizingMaskIntoConstraints="NO" id="SqR-nh-2oo">
-                                <rect key="frame" x="362.5" y="765.5" width="299" height="152"/>
+                                <rect key="frame" x="57.666666666666657" y="451" width="299" height="152"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -633,85 +633,85 @@ Go 4.0 Subscription</string>
         <!--Agenda View Controller-->
         <scene sceneID="TVd-jK-lZx">
             <objects>
-                <viewController id="cQ9-jL-fAA" customClass="AgendaViewController" customModule="Sylabilt" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AGENDAVC" id="cQ9-jL-fAA" customClass="AgendaViewController" customModule="Sylabilt" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="trz-WV-4Vw"/>
                         <viewControllerLayoutGuide type="bottom" id="I46-jm-u62"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="gDG-iB-EAk">
-                        <rect key="frame" x="0.0" y="64" width="1024" height="1302"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SilverBG" translatesAutoresizingMaskIntoConstraints="NO" id="uG0-8p-NSM">
-                                <rect key="frame" x="0.0" y="0.0" width="1024" height="1302"/>
+                                <rect key="frame" x="0.0" y="20" width="414" height="716"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jdj-VC-Kra">
-                                <rect key="frame" x="20" y="20" width="45" height="45"/>
+                                <rect key="frame" x="20" y="40" width="57" height="57"/>
                                 <state key="normal" backgroundImage="AddBtn"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's Next?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hd3-dT-124">
-                                <rect key="frame" x="467" y="40" width="90" height="34"/>
+                                <rect key="frame" x="162" y="60" width="90" height="34"/>
                                 <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="28"/>
                                 <color key="textColor" red="0.17254901959999999" green="0.73333333329999995" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZDO-cO-W2Z">
-                                <rect key="frame" x="20" y="530" width="984" height="242"/>
+                                <rect key="frame" x="20" y="247" width="374" height="242"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AgendaBlockImg" translatesAutoresizingMaskIntoConstraints="NO" id="fMK-RG-wal">
-                                        <rect key="frame" x="343" y="0.0" width="297" height="222"/>
+                                        <rect key="frame" x="38.333333333333343" y="0.0" width="297" height="229"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Biology" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JFG-tD-a4g">
-                                        <rect key="frame" x="471.5" y="40" width="42.5" height="29"/>
+                                        <rect key="frame" x="166.66666666666666" y="40" width="42.666666666666686" height="29"/>
                                         <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="24"/>
                                         <color key="textColor" red="1" green="0.98648891630000002" blue="0.1125982099" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tuesday" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rDE-zo-ad3">
-                                        <rect key="frame" x="352" y="143" width="28" height="17"/>
+                                        <rect key="frame" x="47.333333333333329" y="142.33333333333331" width="28" height="17"/>
                                         <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="14"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Due:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aIg-GA-hUH">
-                                        <rect key="frame" x="356" y="73" width="19" height="22"/>
+                                        <rect key="frame" x="51.666666666666671" y="72.333333333333314" width="19" height="22"/>
                                         <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="18"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="33D-Cr-Iox">
-                                        <rect key="frame" x="351" y="95" width="29" height="53"/>
+                                        <rect key="frame" x="46.333333333333329" y="94.333333333333314" width="29" height="53"/>
                                         <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="44"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOME WORK" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BMh-SG-38B">
-                                        <rect key="frame" x="348" y="196" width="52" height="20"/>
+                                        <rect key="frame" x="43.333333333333329" y="203" width="51.999999999999986" height="20"/>
                                         <fontDescription key="fontDescription" name="SteelfishRg-Italic" family="Steelfish" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Gx-cX-ZG4" userLabel="LineView">
-                                        <rect key="frame" x="348" y="217" width="52" height="1"/>
+                                        <rect key="frame" x="43.333333333333329" y="224" width="51.999999999999986" height="1"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="fmT-oX-9Ae"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="brf-aG-IHf">
-                                        <rect key="frame" x="0.0" y="222" width="984" height="20"/>
+                                        <rect key="frame" x="0.0" y="229" width="374" height="13"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7ne-xb-qiW">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="222"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="38.333333333333336" height="229"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Buo-yj-zbw">
-                                        <rect key="frame" x="640" y="0.0" width="344" height="222"/>
+                                        <rect key="frame" x="335.33333333333326" y="0.0" width="38.666666666666686" height="229"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chapter 14.3 review questions on genetics and DNA" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fe6-7P-yrq">
-                                        <rect key="frame" x="406.5" y="112" width="172.5" height="17"/>
+                                        <rect key="frame" x="101.66666666666669" y="112" width="172.66666666666663" height="17"/>
                                         <fontDescription key="fontDescription" name="SteelfishRg-Italic" family="Steelfish" pointSize="14"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -753,17 +753,27 @@ Go 4.0 Subscription</string>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xyd-Jz-O1h">
-                                <rect key="frame" x="0.0" y="1252" width="1024" height="50"/>
+                                <rect key="frame" x="0.0" y="686" width="414" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AD BANNER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zjy-lg-J6Z">
+                                        <rect key="frame" x="168.33333333333334" y="8" width="78" height="34"/>
+                                        <fontDescription key="fontDescription" name="SteelfishRg-Italic" family="Steelfish" pointSize="28"/>
+                                        <color key="textColor" red="0.17254901959999999" green="0.73333333329999995" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
+                                    <constraint firstItem="Zjy-lg-J6Z" firstAttribute="centerX" secondItem="xyd-Jz-O1h" secondAttribute="centerX" id="5Bx-vq-qfC"/>
                                     <constraint firstAttribute="height" constant="50" id="X5B-kz-1VR"/>
+                                    <constraint firstItem="Zjy-lg-J6Z" firstAttribute="centerY" secondItem="xyd-Jz-O1h" secondAttribute="centerY" id="ebo-yx-oVQ"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HyD-wD-e6q">
-                                <rect key="frame" x="552" y="30" width="15" height="15"/>
+                                <rect key="frame" x="247" y="50" width="15" height="15"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XZp-MA-Zch">
-                                        <rect key="frame" x="5.5" y="2" width="3.5" height="12"/>
+                                        <rect key="frame" x="5" y="2" width="3.3333333333333428" height="12"/>
                                         <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="10"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -822,7 +832,7 @@ Go 4.0 Subscription</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c0G-04-goa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="604.1015625" y="-627.67203513909215"/>
+            <point key="canvasLocation" x="-260" y="-607"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ePc-8C-uKp">
@@ -833,11 +843,11 @@ Go 4.0 Subscription</string>
                         <viewControllerLayoutGuide type="bottom" id="DJO-bH-Osa"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="l3Z-Sk-yq0">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wb5-zI-mjl">
-                                <rect key="frame" x="491" y="673" width="42" height="21"/>
+                                <rect key="frame" x="186" y="357.66666666666669" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -854,28 +864,43 @@ Go 4.0 Subscription</string>
             </objects>
             <point key="canvasLocation" x="1711" y="-628"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="xbe-pQ-1zj">
+        <!--Home View Controller-->
+        <scene sceneID="chN-nZ-R0u">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0bB-xs-J57" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <navigationController storyboardIdentifier="AGENDAVC" id="Nki-Au-GMK" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="BaR-65-K1W">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="cQ9-jL-fAA" kind="relationship" relationship="rootViewController" id="w6g-Jn-YaR"/>
-                    </connections>
-                </navigationController>
+                <viewController id="wSb-jF-8Ll" customClass="HomeViewController" customModule="Sylabilt" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cay-Pw-EYn"/>
+                        <viewControllerLayoutGuide type="bottom" id="Aob-wF-MfW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LXj-jS-gPE">
+                        <rect key="frame" x="0.0" y="64" width="414" height="672"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOMEVC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w0A-yF-kid">
+                                <rect key="frame" x="171" y="325.66666666666669" width="72" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="w0A-yF-kid" firstAttribute="centerY" secondItem="LXj-jS-gPE" secondAttribute="centerY" id="Gim-Cw-D82"/>
+                            <constraint firstItem="w0A-yF-kid" firstAttribute="centerX" secondItem="LXj-jS-gPE" secondAttribute="centerX" id="Vpi-4w-8uX"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="jn7-vy-eS2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bZO-M8-JxI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-257.8125" y="-625.0366032210834"/>
+            <point key="canvasLocation" x="438.8671875" y="-1348.4626647144948"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="vYe-jD-rkb">
             <objects>
                 <navigationController storyboardIdentifier="LOGINVC" automaticallyAdjustsScrollViewInsets="NO" id="wp1-FX-dd0" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="o6B-gr-lkv">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="o6B-gr-lkv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -888,10 +913,28 @@ Go 4.0 Subscription</string>
             </objects>
             <point key="canvasLocation" x="-259" y="1680"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="7CT-Om-5P8">
+            <objects>
+                <navigationController storyboardIdentifier="HOMEVC" id="V66-Ir-z9V" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="MmP-2F-jIA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="wSb-jF-8Ll" kind="relationship" relationship="rootViewController" id="DLb-T1-p3a"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3MT-v7-Szu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-285.3515625" y="-1348.0234260614934"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="AddBtn" width="45" height="45"/>
-        <image name="AgendaBlockImg" width="297" height="222"/>
+        <image name="AddBtn" width="57" height="57"/>
+        <image name="AgendaBlockImg" width="297" height="229"/>
         <image name="CalenderImg" width="34" height="40"/>
         <image name="DateImg" width="30" height="30"/>
         <image name="DownloadImg" width="47" height="35"/>
@@ -900,17 +943,17 @@ Go 4.0 Subscription</string>
         <image name="GoogleImg" width="83" height="29"/>
         <image name="ISBN Book Deals" width="28" height="21"/>
         <image name="PencilsImg" width="299" height="152"/>
-        <image name="Search" width="17" height="20"/>
+        <image name="Search" width="22" height="26"/>
         <image name="SilverBG" width="320" height="568"/>
-        <image name="SubjectBtnImg" width="176" height="54"/>
-        <image name="Subscripe" width="97" height="101"/>
-        <image name="SyllabusBgImg" width="320" height="568"/>
+        <image name="SubjectBtnImg" width="228" height="69"/>
+        <image name="Subscripe" width="125" height="130"/>
+        <image name="SyllabusBgImg" width="414" height="736"/>
         <image name="facebook" width="50" height="50"/>
         <image name="googleplus" width="50" height="50"/>
         <image name="iOSImg" width="65" height="30"/>
-        <image name="menu" width="20" height="16"/>
-        <image name="registerbg" width="320" height="568"/>
-        <image name="registerbutton" width="147" height="37"/>
+        <image name="menu" width="25" height="21"/>
+        <image name="registerbg" width="414" height="736"/>
+        <image name="registerbutton" width="190" height="47"/>
         <image name="tick" width="19" height="17"/>
         <image name="twitter" width="50" height="50"/>
     </resources>

@@ -46,7 +46,7 @@ class MenuController: UIViewController, UITableViewDelegate,UITableViewDataSourc
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         switch indexPath.row {
         case 0:
-            self.segueToControllers(ControllerIdentifier: "AGENDAVC")
+            self.segueToControllers(ControllerIdentifier: "HOMEVC")
             break
         case 1:
             self.segueToControllers(ControllerIdentifier: "SUBSCRIBEVC")
