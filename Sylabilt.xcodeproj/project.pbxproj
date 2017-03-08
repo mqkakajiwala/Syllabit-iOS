@@ -309,8 +309,9 @@
 				TargetAttributes = {
 					1AC4162B1E5DB44000884C8D = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 295SRMZQ2V;
 						LastSwiftMigration = 0820;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					1AC416421E5DB44200884C8D = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -691,15 +692,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 295SRMZQ2V;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = Sylabilt/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.syllabit.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sylabiltappdistribution;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "d85139f8-b20d-4b17-8f24-c5330d56b051";
+				PROVISIONING_PROFILE_SPECIFIER = "AdHoc Profile";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -714,15 +716,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 295SRMZQ2V;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = Sylabilt/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.syllabit.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sylabiltappdistribution;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "d85139f8-b20d-4b17-8f24-c5330d56b051";
+				PROVISIONING_PROFILE_SPECIFIER = "AdHoc Profile";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
