@@ -52,7 +52,7 @@ class MenuController: UIViewController, UITableViewDelegate,UITableViewDataSourc
             self.segueToControllers(ControllerIdentifier: "SUBSCRIBEVC")
             break
         case 2:
-//            self.segueToControllers(ControllerIdentifier: "MYSYLLABITVC")
+            self.segueToControllers(ControllerIdentifier: "EditProfileVC")
             break
         case 3:
             self.segueToControllers(ControllerIdentifier: "MYSYLLABITVC")
