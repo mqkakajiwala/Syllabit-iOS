@@ -61,7 +61,7 @@ class MenuController: UIViewController, UITableViewDelegate,UITableViewDataSourc
 //            self.segueToControllers(ControllerIdentifier: "LOGINVC")
             break
         case 5:
-//            self.segueToControllers(ControllerIdentifier: "LOGINVC")
+            self.segueToControllers(ControllerIdentifier: "EXPORTCALENDARVC")
             break
         case 6:
 //            self.segueToControllers(ControllerIdentifier: "LOGINVC")
