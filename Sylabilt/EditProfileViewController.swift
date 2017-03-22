@@ -20,12 +20,12 @@ class EditProfileViewController: UIViewController {
         // Do any additional setup after loading the view.
         self.addLeftBarButtonWithImage(UIImage.init(named: "menu")!)
         
-        if DeviceType.IS_IPHONE_5 {
-            self.shareProfileButtonTopConstraint.constant = 10;
-            self.handleFieldTopConstraint.constant = 10;
-            self.emailStackTopConstraint.constant = 10;
-            self.confirmButtonTopConstraint.constant = 10;
-        }
+//        if DeviceType.IS_IPHONE_5 {
+//            self.shareProfileButtonTopConstraint.constant = 10;
+//            self.handleFieldTopConstraint.constant = 10;
+//            self.emailStackTopConstraint.constant = 10;
+//            self.confirmButtonTopConstraint.constant = 10;
+//        }
     }
     
     
