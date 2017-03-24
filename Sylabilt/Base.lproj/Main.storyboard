@@ -673,31 +673,31 @@ Go 4.0 Subscription</string>
                                         <rect key="frame" x="1" y="0.0" width="279" height="222"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Biology" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JFG-tD-a4g">
-                                        <rect key="frame" x="119.5" y="40" width="42.5" height="29"/>
+                                        <rect key="frame" x="119" y="40" width="43" height="29"/>
                                         <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="24"/>
                                         <color key="textColor" red="1" green="0.98648891630000002" blue="0.1125982099" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tuesday" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rDE-zo-ad3">
-                                        <rect key="frame" x="10" y="142.5" width="28" height="17"/>
+                                        <rect key="frame" x="10" y="143" width="28" height="17"/>
                                         <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="14"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Due:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aIg-GA-hUH">
-                                        <rect key="frame" x="14.5" y="72.5" width="19" height="22"/>
+                                        <rect key="frame" x="14" y="73" width="19" height="22"/>
                                         <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="18"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="33D-Cr-Iox">
-                                        <rect key="frame" x="9" y="94.5" width="29" height="53"/>
+                                        <rect key="frame" x="9" y="95" width="29" height="53"/>
                                         <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="44"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOME WORK" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BMh-SG-38B">
-                                        <rect key="frame" x="6" y="196" width="52" height="20"/>
+                                        <rect key="frame" x="6" y="195" width="52" height="21"/>
                                         <fontDescription key="fontDescription" name="SteelfishRg-Italic" family="Steelfish" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -722,7 +722,7 @@ Go 4.0 Subscription</string>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chapter 14.3 review questions on genetics and DNA" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fe6-7P-yrq">
-                                        <rect key="frame" x="54.5" y="112" width="172.5" height="17"/>
+                                        <rect key="frame" x="54" y="112" width="173" height="17"/>
                                         <fontDescription key="fontDescription" name="SteelfishRg-Italic" family="Steelfish" pointSize="14"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -767,7 +767,7 @@ Go 4.0 Subscription</string>
                                 <rect key="frame" x="0.0" y="518" width="320" height="50"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AD BANNER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zjy-lg-J6Z">
-                                        <rect key="frame" x="121.5" y="8" width="77.5" height="34"/>
+                                        <rect key="frame" x="121" y="8" width="78" height="34"/>
                                         <fontDescription key="fontDescription" name="SteelfishRg-Italic" family="Steelfish" pointSize="28"/>
                                         <color key="textColor" red="0.17254901959999999" green="0.73333333329999995" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -784,7 +784,7 @@ Go 4.0 Subscription</string>
                                 <rect key="frame" x="200" y="50" width="15" height="15"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XZp-MA-Zch">
-                                        <rect key="frame" x="5.5" y="2" width="3.5" height="12"/>
+                                        <rect key="frame" x="5" y="2" width="4" height="12"/>
                                         <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="10"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -1396,7 +1396,7 @@ Go 4.0 Subscription</string>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" translatesAutoresizingMaskIntoConstraints="NO" id="cCK-xH-aUj">
-                                        <rect key="frame" x="8" y="544" width="305" height="41"/>
+                                        <rect key="frame" x="8" y="455" width="304" height="41"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HqE-O0-h3N">
                                                 <rect key="frame" x="0.0" y="0.0" width="45" height="41"/>
@@ -1406,14 +1406,14 @@ Go 4.0 Subscription</string>
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Qv-Zr-law">
-                                                <rect key="frame" x="100" y="0.0" width="95" height="41"/>
+                                                <rect key="frame" x="99.5" y="0.0" width="95" height="41"/>
                                                 <fontDescription key="fontDescription" name="SteelfishRg-Italic" family="Steelfish" pointSize="24"/>
                                                 <state key="normal" title="RESET DEFAULTS">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZuY-8k-ONJ">
-                                                <rect key="frame" x="239" y="0.0" width="66" height="41"/>
+                                                <rect key="frame" x="238" y="0.0" width="66" height="41"/>
                                                 <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="18"/>
                                                 <state key="normal" title="Delete Account">
                                                     <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -1423,7 +1423,6 @@ Go 4.0 Subscription</string>
                                     </stackView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="cCK-xH-aUj" secondAttribute="bottom" id="3YK-Tf-TGK"/>
                                     <constraint firstItem="1GO-6Z-GOk" firstAttribute="top" secondItem="9aO-mg-nsZ" secondAttribute="bottom" constant="8" id="9xJ-jA-UzU"/>
                                     <constraint firstAttribute="bottom" secondItem="3WK-Rq-VOG" secondAttribute="bottom" constant="105" id="AL7-4k-Wjw"/>
                                     <constraint firstItem="9aO-mg-nsZ" firstAttribute="top" secondItem="wYp-x9-DQe" secondAttribute="bottom" constant="8" id="BQ0-eu-7gk"/>
@@ -1470,6 +1469,7 @@ Go 4.0 Subscription</string>
                             <constraint firstItem="Q39-V7-zwu" firstAttribute="leading" secondItem="1ub-xh-3h6" secondAttribute="leading" id="R61-a8-vin"/>
                             <constraint firstItem="avo-RA-tdR" firstAttribute="top" secondItem="HUb-f6-vP6" secondAttribute="bottom" id="Rik-Jc-JA7"/>
                             <constraint firstAttribute="trailing" secondItem="Q39-V7-zwu" secondAttribute="trailing" id="WWP-8c-7DA"/>
+                            <constraint firstItem="BF7-cg-WXD" firstAttribute="top" secondItem="cCK-xH-aUj" secondAttribute="bottom" constant="8" id="eXO-pR-jW1"/>
                             <constraint firstItem="Q39-V7-zwu" firstAttribute="top" secondItem="HUb-f6-vP6" secondAttribute="bottom" id="kuo-ra-kMS"/>
                             <constraint firstItem="BF7-cg-WXD" firstAttribute="top" secondItem="Q39-V7-zwu" secondAttribute="bottom" id="nA6-Qh-TIJ"/>
                             <constraint firstAttribute="trailing" secondItem="avo-RA-tdR" secondAttribute="trailing" id="whz-fq-FAc"/>
