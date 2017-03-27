@@ -30,10 +30,10 @@ class HomeViewController: UIViewController {
         vc2?.title = "DAY"
         
         let vc3 = self.storyboard?.instantiateViewController(withIdentifier: "CHILDVC")
-        vc3?.title = "MONTH"
+        vc3?.title = "WEEK"
 
         let vc4 = self.storyboard?.instantiateViewController(withIdentifier: "CHILDVC")
-        vc4?.title = "WEEK"
+        vc4?.title = "MONTH"
 
         controllerArray.append(vc1!)
         controllerArray.append(vc2!)

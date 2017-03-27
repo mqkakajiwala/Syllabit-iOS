@@ -16,11 +16,7 @@ class AgendaViewController: UIViewController {
     @IBOutlet weak var dateLabel:UILabel!
     @IBOutlet weak var dayLabel:UILabel!
     @IBOutlet var lineViewBottomConstraint: NSLayoutConstraint!
-    @IBOutlet var dayBarButtonOutlet: UIBarButtonItem!
-    @IBOutlet var monthBarButtonOutlet: UIBarButtonItem!
-    @IBOutlet var weekBarButtonOutlet: UIBarButtonItem!
-    @IBOutlet var agendaBarButtonOutlet: UIBarButtonItem!
-    
+        
     
     var controllerArray : [UIViewController] = []
     
