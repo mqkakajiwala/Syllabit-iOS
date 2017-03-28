@@ -26,6 +26,7 @@
 		1AC416531E5DB44200884C8D /* SylabiltUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC416521E5DB44200884C8D /* SylabiltUITests.swift */; };
 		451C34301E688CA000ABDE0C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451C342F1E688CA000ABDE0C /* Constants.swift */; };
 		452BD6111E76A14F005BBEE0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452BD6101E76A14F005BBEE0 /* SettingsViewController.swift */; };
+		45576B0D1E8AB95500EECB61 /* SharedHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45576B0C1E8AB95500EECB61 /* SharedHelper.swift */; };
 		45862C141E6C87B100F97DB3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45862C131E6C87B100F97DB3 /* LoginViewController.swift */; };
 		45862C161E6C89B800F97DB3 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45862C151E6C89B800F97DB3 /* UIFont.swift */; };
 		459A66B21E6FCB7700BA701D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459A66B11E6FCB7700BA701D /* HomeViewController.swift */; };
@@ -78,6 +79,7 @@
 		3581A510EB5B43D9EAE93B37 /* Pods-SylabiltUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SylabiltUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SylabiltUITests/Pods-SylabiltUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		451C342F1E688CA000ABDE0C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		452BD6101E76A14F005BBEE0 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		45576B0C1E8AB95500EECB61 /* SharedHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedHelper.swift; sourceTree = "<group>"; };
 		45862C131E6C87B100F97DB3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		45862C151E6C89B800F97DB3 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
 		459A66B11E6FCB7700BA701D /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 				45862C131E6C87B100F97DB3 /* LoginViewController.swift */,
 				1A6F11AB1E5DEDFA00277090 /* AgendaViewController.swift */,
 				451C342F1E688CA000ABDE0C /* Constants.swift */,
+				45576B0C1E8AB95500EECB61 /* SharedHelper.swift */,
 				1A6F11AD1E5DEE2F00277090 /* SubscriptionViewController.swift */,
 				1ABFA3681E604892006593A2 /* EditProfileViewController.swift */,
 				1ABFA3621E604798006593A2 /* SylabiltViewController.swift */,
@@ -537,6 +540,7 @@
 				1A6F11AE1E5DEE2F00277090 /* SubscriptionViewController.swift in Sources */,
 				459A66B21E6FCB7700BA701D /* HomeViewController.swift in Sources */,
 				45862C141E6C87B100F97DB3 /* LoginViewController.swift in Sources */,
+				45576B0D1E8AB95500EECB61 /* SharedHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -59,15 +59,14 @@ class HomeViewController: UIViewController {
 
         
         self.addChildViewController(pageMenu!)
+        
         self.view.addSubview(pageMenu!.view)
         
         pageMenu!.didMove(toParentViewController: self)
 
     }
     
-    func CGRectMake(_ x: CGFloat, _ y: CGFloat, _ width: CGFloat, _ height: CGFloat) -> CGRect {
-        return CGRect(x: x, y: y, width: width, height: height)
-    }
+  
 
    
 
