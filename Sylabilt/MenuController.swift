@@ -58,13 +58,13 @@ class MenuController: UIViewController, UITableViewDelegate,UITableViewDataSourc
             self.segueToControllers(ControllerIdentifier: "MYSYLLABITVC")
             break
         case 4:
-//            self.segueToControllers(ControllerIdentifier: "LOGINVC")
+            self.segueToControllers(ControllerIdentifier: "ISBNVC")
             break
         case 5:
             self.segueToControllers(ControllerIdentifier: "EXPORTCALENDARVC")
             break
         case 6:
-//            self.segueToControllers(ControllerIdentifier: "LOGINVC")
+            self.segueToControllers(ControllerIdentifier: "SHAREVC")
             break
         case 7:
             self.segueToControllers(ControllerIdentifier: "SETTINGSVC")

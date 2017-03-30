@@ -27,6 +27,8 @@
 		451C34301E688CA000ABDE0C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451C342F1E688CA000ABDE0C /* Constants.swift */; };
 		452BD6111E76A14F005BBEE0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452BD6101E76A14F005BBEE0 /* SettingsViewController.swift */; };
 		45576B0D1E8AB95500EECB61 /* SharedHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45576B0C1E8AB95500EECB61 /* SharedHelper.swift */; };
+		455910BF1E8D6ADB00205F46 /* ShareAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455910BE1E8D6ADB00205F46 /* ShareAppViewController.swift */; };
+		455910C11E8D727700205F46 /* ISBNBookDealsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455910C01E8D727700205F46 /* ISBNBookDealsViewController.swift */; };
 		45862C141E6C87B100F97DB3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45862C131E6C87B100F97DB3 /* LoginViewController.swift */; };
 		45862C161E6C89B800F97DB3 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45862C151E6C89B800F97DB3 /* UIFont.swift */; };
 		459A66B21E6FCB7700BA701D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459A66B11E6FCB7700BA701D /* HomeViewController.swift */; };
@@ -80,6 +82,8 @@
 		451C342F1E688CA000ABDE0C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		452BD6101E76A14F005BBEE0 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		45576B0C1E8AB95500EECB61 /* SharedHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedHelper.swift; sourceTree = "<group>"; };
+		455910BE1E8D6ADB00205F46 /* ShareAppViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareAppViewController.swift; sourceTree = "<group>"; };
+		455910C01E8D727700205F46 /* ISBNBookDealsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISBNBookDealsViewController.swift; sourceTree = "<group>"; };
 		45862C131E6C87B100F97DB3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		45862C151E6C89B800F97DB3 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
 		459A66B11E6FCB7700BA701D /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -201,6 +205,8 @@
 				1ABFA3661E604812006593A2 /* AddDetailViewController.swift */,
 				1A4519CA1E633D69004EEF81 /* ExportViewController.swift */,
 				452BD6101E76A14F005BBEE0 /* SettingsViewController.swift */,
+				455910BE1E8D6ADB00205F46 /* ShareAppViewController.swift */,
+				455910C01E8D727700205F46 /* ISBNBookDealsViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -526,6 +532,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				455910C11E8D727700205F46 /* ISBNBookDealsViewController.swift in Sources */,
 				1ABFA3691E604892006593A2 /* EditProfileViewController.swift in Sources */,
 				1A4519CB1E633D69004EEF81 /* ExportViewController.swift in Sources */,
 				1A6F11B01E5DEE7C00277090 /* MenuController.swift in Sources */,
@@ -536,6 +543,7 @@
 				1ABFA3671E604812006593A2 /* AddDetailViewController.swift in Sources */,
 				45862C161E6C89B800F97DB3 /* UIFont.swift in Sources */,
 				452BD6111E76A14F005BBEE0 /* SettingsViewController.swift in Sources */,
+				455910BF1E8D6ADB00205F46 /* ShareAppViewController.swift in Sources */,
 				1ABFA3651E6047C9006593A2 /* AddTaskViewController.swift in Sources */,
 				1A6F11AE1E5DEE2F00277090 /* SubscriptionViewController.swift in Sources */,
 				459A66B21E6FCB7700BA701D /* HomeViewController.swift in Sources */,
